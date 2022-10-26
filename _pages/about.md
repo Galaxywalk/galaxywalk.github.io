@@ -17,6 +17,7 @@ News:
 
 - 10/2022. We are working on opening source RF-Chord platform. Please visit [RF-Chord](https://soar.group/projects/rfid/rfchord/) for more details.
 - 09/2022. Begin my PhD journey.
+- 07/2022. Our work of wideband RFID localization platform RF-Chord has been accepted by NSDI 23.
 
 
 Publications
