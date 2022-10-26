@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Bo Liang"
   avatar           : "profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : 
   location         : "Beijing, China"
   employer         :
   pubmed           : 
@@ -174,19 +174,19 @@ kramdown:
 
 
 # Collections
-collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   teaching:
+#     output: true
+#     permalink: /:collection/:path/
+#   publications:
+#     output: true
+#     permalink: /:collection/:path/
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:path/
+#   talks:
+#     output: true
+#     permalink: /:collection/:path/
 
 
 # Defaults

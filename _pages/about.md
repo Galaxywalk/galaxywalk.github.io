@@ -22,7 +22,7 @@ News:
 
 Publications
 ======
-- **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. RF-CHORD: Towards Deployable RFID Localization System for Logistics Network. NSDI 2023. Accepted
+- **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. RF-CHORD: Towards Deployable RFID Localization System for Logistics Network. NSDI 2023. Accepted.
 - Kenuo Xu, Chen Gong, **Bo Liang**, Yue Wu, Boya Di, Lingyang Song, Chenren Xu. Low-Latency Visible Light Backscatter Networking with RetroMUMIMO. ACM SenSys 2022. Accepted.
 - Purui Wang, **Bo Liang**, Renjie Zhao, Pengyu Zhang, Xinyu Zhang, Chenren Xu. [Poster] Towards Deployable RFID Localization System for Logistics Network. ACM Sensys 2022. Accepted.
 - Ke Li, Ruidong Zhang, **Bo Liang**, François Guimbretière, and Cheng Zhang. [EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements.](https://dl.acm.org/doi/10.1145/3534621) ACM IMWUT 2022.
