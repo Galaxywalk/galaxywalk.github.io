@@ -15,6 +15,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 News:
 =====
 
+- 11/2022. Update RF-Chord platform.
 - 10/2022. We are working on opening source RF-Chord platform. Please visit [RF-Chord](https://soar.group/projects/rfid/rfchord/) for more details.
 - 09/2022. Begin my PhD journey.
 - 07/2022. Our work of wideband RFID localization platform RF-Chord has been accepted by NSDI 23.
@@ -22,11 +23,10 @@ News:
 
 Publications
 ======
-- **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. [RF-CHORD: Towards Deployable RFID Localization System for Logistics Network](https://arxiv.org/abs/2211.00272). NSDI, 2023. Accepted.
-- Kenuo Xu, Chen Gong, **Bo Liang**, Yue Wu, Boya Di, Lingyang Song, Chenren Xu. Low-Latency Visible Light Backscatter Networking with RetroMUMIMO. ACM SenSys, 2022. Accepted.
-- Purui Wang, **Bo Liang**, Renjie Zhao, Pengyu Zhang, Xinyu Zhang, Chenren Xu. Towards Deployable RFID Localization System for Logistics Network. ACM Sensys Poster and Demo, 2022. Accepted.
-- Ke Li, Ruidong Zhang, **Bo Liang**, François Guimbretière, and Cheng Zhang. [EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements.](https://dl.acm.org/doi/10.1145/3534621) ACM IMWUT, 2022.
-- Chenren Xu, Kenuo Xu, Lilei Feng, **Bo Liang**. RetroV2X: A New V2X Paradigm with Visible Light Backscatter Networking. Fundamental Research. Accepted.
+- \[NSDI'23\] **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. [RF-CHORD: Towards Deployable RFID Localization System for Logistics Network](https://arxiv.org/abs/2211.00272). Accepted.
+- \[SenSys'22\] Kenuo Xu, Chen Gong, **Bo Liang**, Yue Wu, Boya Di, Lingyang Song, Chenren Xu. Low-Latency Visible Light Backscatter Networking with RetroMUMIMO. Accepted.
+- \[Sensys'22 Poster and Demo\] Purui Wang, **Bo Liang**, Renjie Zhao, Pengyu Zhang, Xinyu Zhang, Chenren Xu. Towards Deployable RFID Localization System for Logistics Network.
+- \[IMWUT'22\] Ke Li, Ruidong Zhang, **Bo Liang**, François Guimbretière, and Cheng Zhang. [EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements.](https://dl.acm.org/doi/10.1145/3534621).
 
 
 CV:
