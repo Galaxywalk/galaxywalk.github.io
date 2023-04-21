@@ -15,10 +15,12 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 News:
 =====
 
-- 11/2022. Update RF-Chord platform.
+- 04/2023. Invited to be MobiSys'23 Artifact Evaluation Program Committee Members!
+- 04/2023. Present RF-Chord on NSDI 23. Please refer to [video and slides] (https://www.usenix.org/conference/nsdi23/presentation/liang-bo).
+- 11/2022. Update RF-Chord platform open source. Add a new dataset!
 - 10/2022. We are working on opening source RF-Chord platform. Please visit [RF-Chord](https://soar.group/projects/rfid/rfchord/) for more details.
 - 09/2022. Begin my PhD journey.
-- 07/2022. Our work of wideband RFID localization platform RF-Chord has been accepted by NSDI 23.
+- 07/2022. Our work of high throughput RFID localization platform RF-Chord has been accepted by NSDI 23.
 
 
 Publications
