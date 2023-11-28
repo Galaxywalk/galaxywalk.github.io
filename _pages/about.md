@@ -30,6 +30,7 @@ News:
 
 Publications
 ======
+- \[SECON'23] **Bo Liang**, Xingyuming Liu, YuCheng Wan, Siyao Cheng, Jie Liu, Chenren Xu. [Poster: Empower Smart Agriculture with RFID Reference Infrastructure](https://ieeexplore.ieee.org/abstract/document/10287453)
 - \[NSDI'23\] **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. [RF-CHORD: Towards Deployable RFID Localization System for Logistics Network](https://www.usenix.org/conference/nsdi23/presentation/liang-bo).
 - \[SenSys'22\] Kenuo Xu, Chen Gong, **Bo Liang**, Yue Wu, Boya Di, Lingyang Song, Chenren Xu. [Low-Latency Visible Light Backscatter Networking with RetroMUMIMO](https://doi.org/10.1145/3560905.3568507).
 - \[Sensys'22 Poster and Demo\] Purui Wang, **Bo Liang**, Renjie Zhao, Pengyu Zhang, Xinyu Zhang, Chenren Xu. [An RFID Localization System for Smart Logistics](https://doi.org/10.1145/3560905.3568078).
