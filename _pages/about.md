@@ -15,9 +15,10 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 News:
 =====
 
+- 02/2024. Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. Invited to be CHI'24 External Reviewer!
 - 07/2023. Invited to be MobiCom'23 Artifact Evaluation Program Committee Members!
-- 07/2023. Our poster of RFID-based UAV's reference infrastructure has been accepted by SECON'23 AgriSECON Workshop! Please refer to our [post](https://ieeexplore.ieee.org/abstract/document/10287453)
+- 07/2023. Our poster of RFID-based UAV's reference infrastructure has been accepted by SECON'23 AgriSECON Workshop! Please refer to our [poster](https://ieeexplore.ieee.org/abstract/document/10287453)
 - 04/2023. Invited to be MobiSys'23 Artifact Evaluation Program Committee Members!
 - 04/2023. Present RF-Chord on NSDI 23! Please refer to [video and slides](https://www.usenix.org/conference/nsdi23/presentation/liang-bo).
 - 12/2022. Invited to be IMWUT External Reviewer!
