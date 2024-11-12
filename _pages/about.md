@@ -8,12 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a second year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research interest lies in mobile computing, wireless sensing, and human-computer interaction.
+I am a third year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research interest lies in mobile computing, wireless sensing, and human-computer interaction.
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Beyond my current research, I am also interested in the cross field of natural science and wireless networking -- how to learn from other fields and how to build better wireless sensing system for other fields.
 
 News:
 =====
+
+- 11/2024. Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and
+
+  Application Competition (Held by CCF)!
 
 - 02/2024. Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. Invited to be CHI'24 External Reviewer!
