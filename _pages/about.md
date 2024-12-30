@@ -14,11 +14,8 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 News:
 =====
-
-- 11/2024. Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and
-
-  Application Competition (Held by CCF)!
-
+- 12/2024. Start MSRA internship. Begin to explore wireless-enabled multi-modal embodied intelligence!
+- 11/2024. Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)!
 - 02/2024. Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. Invited to be CHI'24 External Reviewer!
 - 07/2023. Invited to be MobiCom'23 Artifact Evaluation Program Committee Members!
