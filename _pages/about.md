@@ -14,7 +14,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 News:
 =====
-- 03/2024. Our paper of the first LiDAR Backscatter has been accepted by SenSys'25!
+- 03/2025. Our paper of the first LiDAR Backscatter has been accepted by SenSys'25!
 - 12/2024. Start MSRA internship. Begin to explore wireless-enabled multi-modal embodied intelligence!
 - 11/2024. Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)!
 - 02/2024. Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
