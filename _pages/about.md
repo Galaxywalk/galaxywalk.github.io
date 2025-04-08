@@ -14,7 +14,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 News:
 =====
-- 04/2025. 📑 Our paper SynCheck has been accepted by MobiSys'25! We evaluate currect wireless generative model and propose a plug-and-play module to improve their performance.
+- 04/2025. 📑 Our paper SynCheck has been accepted by MobiSys'25! We evaluate currect wireless generative models and propose a plug-and-play module to improve their performance.
 - 03/2025. 📑 Our paper of the first LiDAR Backscatter has been accepted by SenSys'25!
 - 12/2024. 👩‍💻 Start MSRA internship. Begin to explore wireless-enabled multi-modal embodied intelligence!
 - 11/2024. 🏆 Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)!
