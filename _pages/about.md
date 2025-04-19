@@ -16,9 +16,9 @@ News:
 
 =====
 
-- 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve their performance. Please check the [paper](../files/mobisys25-syncheck.pdf).
-- 03/2025. 📑 Our paper of the first LiDAR Backscatter _RetroLiDAR_ has been accepted by SenSys'25!
-- 12/2024. 👩‍💻 Start MSRA internship. Begin to explore embodied intelligence! Please check the [paper](../files/sensys25-RetroLiDAR.pdf).
+- 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve their performance. Please refer to our [paper](../files/mobisys25-syncheck.pdf).
+- 03/2025. 📑 Our paper of the first LiDAR Backscatter _RetroLiDAR_ has been accepted by SenSys'25! Please refer to our [paper](../files/sensys25-RetroLiDAR.pdf).
+- 12/2024. 👩‍💻 Start MSRA internship. Begin to explore embodied intelligence!
 - 11/2024. 🏆 Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)! We propose a high performance software defined radio [supersoda](../files/supersoda.pdf).
 - 02/2024. 🤝 Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. 🤝 Invited to be CHI'24 External Reviewer!
@@ -28,8 +28,8 @@ News:
 - 12/2022. 🤝 Invited to be IMWUT External Reviewer!
 - 10/2022. 🌐 We are working on opening source RF-Chord platform. Please visit our homepage [RF-Chord](https://soar.group/projects/rfid/rfchord/) for more details!
 - 07/2022. 🎓 Graduated and begin my PhD journey! As an Outstanding Graduate of Peking University!
-- 07/2022. 📑 Our paper of _RF-Chord_, a high throughput and high reliability RFID localization platform, has been accepted by NSDI 23! Please Check the [paper](../files/nsdi23-RF-Chord.pdf).
-- 04/2022. 📑 Our paper of _RetroMUMIMO_, the first multiple user multiple input and multiple output visible light backscatter, has been accepted by Sensys 22! Please Check the [paper](../files/sensys22-RetroMUMIMO.pdf).
+- 07/2022. 📑 Our paper of _RF-Chord_, a high throughput and high reliability RFID localization platform, has been accepted by NSDI 23! Please refer to our [paper](../files/nsdi23-RF-Chord.pdf).
+- 04/2022. 📑 Our paper of _RetroMUMIMO_, the first multiple user multiple input and multiple output visible light backscatter, has been accepted by Sensys 22! Please refer to our [paper](../files/sensys22-RetroMUMIMO.pdf).
 
 Publications
 
