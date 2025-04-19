@@ -21,12 +21,12 @@ News:
 - 02/2024. 🤝 Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. 🤝 Invited to be CHI'24 External Reviewer!
 - 07/2023. 🤝 Invited to be MobiCom'23 Artifact Evaluation Program Committee Members!
-- 07/2023. 📑 Our poster of RFID-based UAV's reference infrastructure has been accepted by SECON'23 AgriSECON Workshop! Please refer to our [poster](https://ieeexplore.ieee.org/abstract/document/10287453)!
+- 07/2023. 📑 Our poster of RFID-based UAV's reference infrastructure has been accepted by SECON'23 AgriSECON Workshop! Please refer to our [poster](../files/secon23poster.pdf)!
 - 04/2023. 🤝 Invited to be MobiSys'23 Artifact Evaluation Program Committee Members!
 - 12/2022. 🤝 Invited to be IMWUT External Reviewer!
 - 10/2022. 🌐 We are working on opening source RF-Chord platform. Please visit [RF-Chord](https://soar.group/projects/rfid/rfchord/) for more details!
 - 07/2022. 🎓 Graduated and begin my PhD journey! As an Outstanding Graduate of Peking University!
-- 07/2022. 📑 Our paper of _RF-Chord_, a high throughput and high reliability RFID localization platform, has been accepted by NSDI 23!
+- 07/2022. 📑 Our paper of _RF-Chord_, a high throughput and high reliability RFID localization platform, has been accepted by NSDI 23! Please Check the [paper](../files/nsdi23-RF-Chord.pdf)!
 
 Publications
 ======
