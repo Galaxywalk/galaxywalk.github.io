@@ -8,13 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on ​hardware-software co-design systems​ to enhance sensing capabilities for ​humans​ and embodied agents.
+I am a third year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on ​hardware-software co-design systems​ to enhance sensing capabilities for ​humans​ and embodied agents. This is my [CV](../files/CV_bo.pdf).
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Besides my current research, I am also interested in the cross field of natural science and wireless networking -- how to build better wireless systems to prompt science researches.
 
 News:
-
-=====
+======
 
 - 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve their performance. Please refer to our [paper](../files/mobisys25-syncheck.pdf).
 - 03/2025. 📑 Our paper of the first LiDAR Backscatter _RetroLiDAR_ has been accepted by SenSys'25! Please refer to our [paper](../files/sensys25-RetroLiDAR.pdf).
@@ -32,7 +31,6 @@ News:
 - 04/2022. 📑 Our paper of _RetroMUMIMO_, the first multiple user multiple input and multiple output visible light backscatter, has been accepted by Sensys 22! Please refer to our [paper](../files/sensys22-RetroMUMIMO.pdf).
 
 Publications
-
 ======
 
 - \[MobiSys'25\] Chen Gong, **Bo Liang**, Wei Gao, Chenren Xu. Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data.
@@ -42,9 +40,3 @@ Publications
 - \[SenSys'22\] Kenuo Xu, Chen Gong, **Bo Liang**, Yue Wu, Boya Di, Lingyang Song, Chenren Xu. [Low-Latency Visible Light Backscatter Networking with RetroMUMIMO](https://doi.org/10.1145/3560905.3568507).
 - \[Sensys'22 Poster and Demo\] Purui Wang, **Bo Liang**, Renjie Zhao, Pengyu Zhang, Xinyu Zhang, Chenren Xu. [An RFID Localization System for Smart Logistics](https://doi.org/10.1145/3560905.3568078).
 - \[IMWUT'22\] Ke Li, Ruidong Zhang, **Bo Liang**, François Guimbretière, and Cheng Zhang. [EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements.](https://dl.acm.org/doi/10.1145/3534621).
-
-CV:
-
-======
-
-Check my [CV](../files/CV_bo.pdf).
