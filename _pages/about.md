@@ -14,10 +14,11 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 News
 ======
-
+- 06/2025. 🏆 Our paper _SynCheck_ has won the **Best Paper Award** at MobiSys'25 (2/42). Even better, it has successfully passed artifact evaluation, so you can use it with confidence. 👉 Check out our code and full evaluation setup on [Github Repo](https://github.com/MobiSys25AE/SynCheck).
+- 06/2025. I showed the demo of mmwave based liquid identification for robot manipulation, _Erlang Sight_, at MobiSys'25. [Demo paper](../files/mobisys25-erlangsight.pdf) [Poster](../files/mobisys25-erlangsight-poster.pdf).
 - 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve their performance. Please refer to our [paper](../files/mobisys25-syncheck.pdf).
 - 03/2025. 📑 Our paper of the first LiDAR Backscatter _RetroLiDAR_ has been accepted by SenSys'25! Please refer to our [paper](../files/sensys25-RetroLiDAR.pdf).
-- 12/2024. 👩‍💻 Start MSRA internship. Begin to explore embodied intelligence!
+- 12/2024. 💻 Start MSRA internship. Begin to explore embodied intelligence!
 - 11/2024. 🏆 Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)! We propose a high performance software defined radio [supersoda](../files/supersoda.pdf).
 - 02/2024. 🤝 Invited to be MobiCom'24 Artifact Evaluation Program Committee Members!
 - 10/2023. 🤝 Invited to be CHI'24 External Reviewer!
@@ -33,7 +34,7 @@ News
 Publications
 ======
 
-- \[MobiSys'25\] Chen Gong, **Bo Liang**, Wei Gao, Chenren Xu. Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data. [\[Paper\]](../files/mobisys25-syncheck.pdf)
+- \[MobiSys'25\] Chen Gong, **Bo Liang**, Wei Gao, Chenren Xu. Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data. 🏆 Best Paper. [\[Paper\]](../files/mobisys25-syncheck.pdf)
 - \[SenSys'25\] Kenuo Xu, **Bo Liang**, Jingyu Li, Chenren Xu. RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing. [\[Paper\]](../files/sensys25-RetroLiDAR.pdf)
 - \[SECON'23\] **Bo Liang**, Xingyuming Liu, YuCheng Wan, Siyao Cheng, Jie Liu, Chenren Xu. Poster: Empower Smart Agriculture with RFID Reference Infrastructure. [\[Paper\]](../files/secon23poster.pdf)
 - \[NSDI'23\] **Bo Liang**, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu. RF-CHORD: Towards Deployable RFID Localization System for Logistics Network. [\[Paper\]](../files/nsdi23-RF-Chord.pdf)
