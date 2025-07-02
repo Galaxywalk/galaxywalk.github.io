@@ -16,7 +16,8 @@ News
 ======
 - 06/2025. 🏆 Our paper _SynCheck_ has won the **Best Paper Award** at MobiSys'25 (2/42). Even better, it has successfully passed artifact evaluation, so you can use it with confidence. Check out our code and full evaluation setup on [Github Repo](https://github.com/MobiSys25AE/SynCheck).
 - 06/2025. 🎮 I showed the demo of mmwave based liquid identification for robot manipulation, _Erlang Sight_, at MobiSys'25. Refer to our [Demo paper](../files/mobisys25-erlangsight.pdf) and [Poster](../files/mobisys25-erlangsight-poster.pdf).
-- 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve their performance. Please refer to our [paper](../files/mobisys25-syncheck.pdf).
+- 06/2025.  📑 Our paper _RF-Rock_ has been accepted by MobiCom'25! We propose a new identification attack on RFID tags with non-linear effect of its physical layer. The paper is coming up soon.
+- 04/2025. 📑 Our paper _SynCheck_ has been accepted by MobiSys'25! We evaluate existing wireless generative models and propose a plug-and-play module to improve the synthetic data quality. Please refer to our [paper](../files/mobisys25-syncheck.pdf).
 - 03/2025. 📑 Our paper of the first LiDAR Backscatter _RetroLiDAR_ has been accepted by SenSys'25! Please refer to our [paper](../files/sensys25-RetroLiDAR.pdf).
 - 12/2024. 💻 Start MSRA internship. Begin to explore embodied intelligence!
 - 11/2024. 🏆 Win the First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (Held by CCF)! We propose a high performance software defined radio [supersoda](../files/supersoda.pdf).
