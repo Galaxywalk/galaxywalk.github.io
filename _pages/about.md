@@ -34,7 +34,7 @@ News
 
 Publications
 ======
-
+- \[MobiCom'25\] Chen Gong, **Bo Liang**, Purui Wang, Xiaoyu Ji, Yin Chen, Chenren Xu RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation. [\[Paper\]](../files/mobicom25-rfrock.pdf)
 - \[MobiSys'25\] Chen Gong, **Bo Liang**, Wei Gao, Chenren Xu. Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data. 🏆 **Best Paper Award**. [\[Paper\]](../files/mobisys25-syncheck.pdf)
 - \[SenSys'25\] Kenuo Xu, **Bo Liang**, Jingyu Li, Chenren Xu. RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing. [\[Paper\]](../files/sensys25-RetroLiDAR.pdf)
 - \[SECON'23\] **Bo Liang**, Xingyuming Liu, YuCheng Wan, Siyao Cheng, Jie Liu, Chenren Xu. Poster: Empower Smart Agriculture with RFID Reference Infrastructure. [\[Paper\]](../files/secon23poster.pdf)
