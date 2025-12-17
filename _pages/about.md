@@ -8,11 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for **humans** and embodied agents. Here is my [CV](../files/CV_bo.pdf).
+I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for **humans** and embodied agents. Here is my [CV](../files/CV_bo.pdf).
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Besides my current research, I am also interested in the cross field of natural science and wireless networking -- how to build better wireless systems to prompt science researches.
 
 <h2 class="section-title">📚 Publications</h2>
+
+<div class="pub-entry">
+  <div class="pub-img">
+    <img src="/images/pub/mobicom26-wicompass.png" alt="WiCompass">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
+    <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-authors"><span class="me">Bo Liang</span>, et al.</div>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-img">
+    <img src="/images/pub/sensys26-mtrack.png" alt="mTrack">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</div>
+    <div class="pub-venue">SenSys 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-authors"><span class="me">Bo Liang</span>, et al.</div>
+  </div>
+</div>
 
 <div class="pub-entry">
   <div class="pub-img">
@@ -74,7 +96,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfchord.svg" alt="RF-CHORD">
+    <img src="/images/pub/rfchord.png" alt="RF-CHORD">
   </div>
   <div class="pub-content">
     <div class="pub-title">RF-CHORD: Towards Deployable RFID Localization System for Logistics Network</div>
@@ -125,6 +147,52 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-authors">Ke Li, Ruidong Zhang, <span class="me">Bo Liang</span>, François Guimbretière, Cheng Zhang</div>
     <div class="pub-links">
       <a href="/files/imwut22eario.pdf">Paper</a>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-title">🛠️ Open Source Projects</h2>
+
+<div class="project-entry">
+  <div class="project-icon">📡</div>
+  <div class="project-content">
+    <div class="project-title"><a href="https://github.com/MobiSys25AE/SynCheck">SynCheck</a></div>
+    <div class="project-desc">Quality-guided utilization framework for wireless synthetic data. Evaluate and improve generative models for wireless sensing applications.</div>
+    <div class="project-links">
+      <a href="https://github.com/MobiSys25AE/SynCheck">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-entry">
+  <div class="project-icon">📱</div>
+  <div class="project-content">
+    <div class="project-title"><a href="https://github.com/Galaxywalk/iLiDAR">iLiDAR</a></div>
+    <div class="project-desc">Transform your iPhone into a multi-modal visual sensor. Real-time LiDAR + RGB data streaming and synchronization to PC for data collection and analysis.</div>
+    <div class="project-links">
+      <a href="https://github.com/Galaxywalk/iLiDAR">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-entry">
+  <div class="project-icon">📚</div>
+  <div class="project-content">
+    <div class="project-title"><a href="https://github.com/Galaxywalk/GoogleScholarBib">GoogleScholarBib</a></div>
+    <div class="project-desc">Chrome extension that adds a "Copy BibTeX" button to Google Scholar. One-click copy of official BibTeX citations without pop-ups or tab switches.</div>
+    <div class="project-links">
+      <a href="https://github.com/Galaxywalk/GoogleScholarBib">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-entry">
+  <div class="project-icon">📻</div>
+  <div class="project-content">
+    <div class="project-title">SuperSODA</div>
+    <div class="project-desc">High-performance software defined radio platform. Won First Prize in the 1st Ubiquitous Intelligent Sensing Technology Innovation Competition (CCF).</div>
+    <div class="project-links">
+      <a href="/files/supersoda.pdf">Paper</a>
     </div>
   </div>
 </div>
