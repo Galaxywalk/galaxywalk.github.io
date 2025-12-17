@@ -182,7 +182,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-title">SuperSODA: High-Performance Software Defined Radio Platform</div>
     <div class="pub-authors">Won First Prize 🏆 in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (CCF).</div>
     <div class="pub-links">
-      <a href="/files/supersoda.pdf">Paper</a>
+      <a href="/files/supersoda.pdf">Report</a>
       <a href="https://soar.group/projects/rfid/rfchord/" class="project">Project</a>
     </div>
   </div>
