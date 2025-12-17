@@ -201,12 +201,36 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="intern-entry">
   <div class="intern-logo">
-    <img src="/images/intern/msra.svg" alt="Microsoft Research Asia">
+    <img src="/images/intern/lightrobotics_logo.jpeg" alt="LightRobotics">
   </div>
   <div class="intern-content">
-    <div class="intern-title">Research Intern</div>
+    <div class="intern-title">Embodied AI Research Intern</div>
+    <div class="intern-company">LightRobotics</div>
+    <div class="intern-time">Sep 2025 - Present</div>
+    <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
+  </div>
+</div>
+
+<div class="intern-entry">
+  <div class="intern-logo">
+    <img src="/images/intern/microsoft_logo.jpeg" alt="Microsoft Research Asia">
+  </div>
+  <div class="intern-content">
+    <div class="intern-title">Embodied AI Research Intern</div>
     <div class="intern-company">Microsoft Research Asia (MSRA)</div>
-    <div class="intern-time">Dec 2024 - Present</div>
-    <div class="intern-desc">Exploring embodied intelligence and robotics research.</div>
+    <div class="intern-time">Nov 2024 - Aug 2025</div>
+    <div class="intern-desc">Designed and built robot hardware and a vision-language navigation model. Independently developed the first wheeled single-arm humanoid robot "Master" deployed in MSRA embodied AI research. (Mentor: Xiaohan Yi)</div>
+  </div>
+</div>
+
+<div class="intern-entry">
+  <div class="intern-logo">
+    <img src="/images/intern/alibaba_cloud_computing_company_logo.jpeg" alt="Alibaba DAMO Academy">
+  </div>
+  <div class="intern-content">
+    <div class="intern-title">Software-Hardware Engineer</div>
+    <div class="intern-company">XG Lab, Alibaba DAMO Academy</div>
+    <div class="intern-time">Jul 2021 - May 2023</div>
+    <div class="intern-desc">Developed and deployed RFID-based inventory and localization systems supporting Alibaba's logistic chains (Cainiao and Freshippo). The system was presented at NSDI'23, making me the first undergraduate to publish at NSDI. (Mentor: Pengyu Zhang)</div>
   </div>
 </div>
