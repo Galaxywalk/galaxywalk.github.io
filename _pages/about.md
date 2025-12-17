@@ -30,7 +30,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/syncheck.svg" alt="SynCheck">
+    <img src="/images/pub/syncheck.png" alt="SynCheck">
   </div>
   <div class="pub-content">
     <div class="pub-title">Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data</div>
@@ -45,7 +45,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/erlangsight.svg" alt="Erlang Sight">
+    <img src="/images/pub/erlangsight.png" alt="Erlang Sight">
   </div>
   <div class="pub-content">
     <div class="pub-title">Erlang Sight: mmWave-based Liquid Identification for Robot Manipulation</div>
@@ -60,7 +60,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retrolidar.svg" alt="RetroLiDAR">
+    <img src="/images/pub/retrolidar.png" alt="RetroLiDAR">
   </div>
   <div class="pub-content">
     <div class="pub-title">RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing</div>
@@ -89,7 +89,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/secon23.svg" alt="SECON Poster">
+    <img src="/images/pub/secon23.png" alt="SECON Poster">
   </div>
   <div class="pub-content">
     <div class="pub-title">Poster: Empower Smart Agriculture with RFID Reference Infrastructure</div>
@@ -103,7 +103,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retromumimo.svg" alt="RetroMUMIMO">
+    <img src="/images/pub/retromumimo.png" alt="RetroMUMIMO">
   </div>
   <div class="pub-content">
     <div class="pub-title">Low-Latency Visible Light Backscatter Networking with RetroMUMIMO</div>
@@ -117,7 +117,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/eario.svg" alt="EarIO">
+    <img src="/images/pub/eario.png" alt="EarIO">
   </div>
   <div class="pub-content">
     <div class="pub-title">EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements</div>
