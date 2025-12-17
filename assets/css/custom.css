@@ -47,6 +47,16 @@
   line-height: 1.4;
 }
 
+.pub-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: #337ab7;
+  text-decoration: underline;
+}
+
 .pub-venue {
   font-size: 0.95em;
   color: #666;
@@ -291,9 +301,14 @@ html[data-theme="dark"] .pub-img {
 }
 
 html[data-theme="dark"] .pub-title,
+html[data-theme="dark"] .pub-title a,
 html[data-theme="dark"] .intern-title,
 html[data-theme="dark"] .project-title {
   color: #e0e0e0;
+}
+
+html[data-theme="dark"] .pub-title a:hover {
+  color: #5bc0de;
 }
 
 html[data-theme="dark"] .pub-venue,

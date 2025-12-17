@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Boliang"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Bo Liang's Homepage"
 description              : &description "I am a 3rd year Ph.D. candidate at School of Computer Science in Peking University, advised by Professor Chenren Xu. My research interest lies in mobile computing, wireless networking, and human computer interaction."
