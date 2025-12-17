@@ -21,7 +21,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   <div class="pub-content">
     <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
     <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
-    <div class="pub-authors"><span class="me">Bo Liang</span>, et al.</div>
+    <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, KaiChen Zhou, Chenren Xu</div>
   </div>
 </div>
 
@@ -32,7 +32,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   <div class="pub-content">
     <div class="pub-title">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</div>
     <div class="pub-venue">SenSys 2026 <span class="to-appear">(To appear)</span></div>
-    <div class="pub-authors"><span class="me">Bo Liang</span>, et al.</div>
+    <div class="pub-authors">Xingyuming Liu, <span class="me">Bo Liang</span>, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu</div>
   </div>
 </div>
 
