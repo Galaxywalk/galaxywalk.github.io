@@ -1,0 +1,210 @@
+/* Custom styles for academic homepage */
+
+/* Publication card layout */
+.pub-entry {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-entry:last-child {
+  border-bottom: none;
+}
+
+.pub-img {
+  flex: 0 0 200px;
+  margin-right: 20px;
+}
+
+.pub-img img {
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+.pub-content {
+  flex: 1;
+}
+
+.pub-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.pub-venue {
+  font-size: 0.95em;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.pub-venue .award {
+  color: #d9534f;
+  font-weight: 600;
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.pub-authors .me {
+  font-weight: 600;
+}
+
+.pub-links {
+  margin-top: 10px;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 4px 10px;
+  font-size: 0.85em;
+  color: #fff;
+  background-color: #337ab7;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.pub-links a:hover {
+  background-color: #23527c;
+  text-decoration: none;
+}
+
+.pub-links a.github {
+  background-color: #333;
+}
+
+.pub-links a.github:hover {
+  background-color: #555;
+}
+
+.pub-links a.project {
+  background-color: #5cb85c;
+}
+
+.pub-links a.project:hover {
+  background-color: #449d44;
+}
+
+/* Intern/Experience section */
+.intern-entry {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.intern-entry:last-child {
+  border-bottom: none;
+}
+
+.intern-logo {
+  flex: 0 0 80px;
+  margin-right: 20px;
+}
+
+.intern-logo img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.intern-content {
+  flex: 1;
+}
+
+.intern-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+.intern-company {
+  font-size: 0.95em;
+  color: #337ab7;
+  margin-bottom: 3px;
+}
+
+.intern-time {
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.intern-desc {
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .pub-entry {
+    flex-direction: column;
+  }
+  
+  .pub-img {
+    flex: none;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .pub-img img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .intern-entry {
+    flex-direction: column;
+  }
+  
+  .intern-logo {
+    flex: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+/* Section headers */
+.section-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #337ab7;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .pub-title, .intern-title {
+    color: #e0e0e0;
+  }
+  
+  .pub-venue, .pub-authors, .intern-desc {
+    color: #b0b0b0;
+  }
+  
+  .pub-entry, .intern-entry {
+    border-bottom-color: #444;
+  }
+  
+  .section-title {
+    color: #e0e0e0;
+  }
+}
+
