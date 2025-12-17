@@ -16,7 +16,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfrock.svg" alt="RF-Rock">
+    <img src="/images/pub/rfrock.png" alt="RF-Rock">
   </div>
   <div class="pub-content">
     <div class="pub-title">RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation</div>
