@@ -14,7 +14,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <h2 class="section-title">📚 Publications</h2>
 
-<div class="pub-entry">
+<!-- <div class="pub-entry">
   <div class="pub-img">
     <img src="/images/pub/mobicom26-wicompass.png" alt="WiCompass">
   </div>
@@ -23,7 +23,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, KaiChen Zhou, Chenren Xu</div>
   </div>
-</div>
+</div> -->
 
 <div class="pub-entry">
   <div class="pub-img">
