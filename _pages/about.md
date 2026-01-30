@@ -14,7 +14,19 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <h2 class="section-title">📚 Publications</h2>
 
-<!-- <div class="pub-entry">
+<div class="pub-entry">
+  <div class="pub-img">
+    <img src="/images/pub/sensys26-wiswiss.png.png" alt="WiSwiss">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
+    <div class="pub-venue">SenSys 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Qihao Zhu, Wei Gao, Yin Chen, Jin Nakazawa, Chenren Xu</div>
+  </div>
+</div>
+
+
+<div class="pub-entry">
   <div class="pub-img">
     <img src="/images/pub/mobicom26-wicompass.png" alt="WiCompass">
   </div>
@@ -23,7 +35,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, KaiChen Zhou, Chenren Xu</div>
   </div>
-</div> -->
+</div>
 
 <div class="pub-entry">
   <div class="pub-img">
