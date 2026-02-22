@@ -16,7 +16,7 @@
   <meta property="og:title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
   <meta property="og:description" content="A coverage-aware data-collection framework that shifts focus from brute-force scaling to targeted data acquisition for robust mmWave sensing.">
   <meta property="og:url" content="https://galaxywalk.github.io/paper/wicompass/">
-  <meta property="og:image" content="https://galaxywalk.github.io/paper/wicompass/static/images/overview.png">
+  <meta property="og:image" content="https://galaxywalk.github.io/paper/wicompass/images/overview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
@@ -28,7 +28,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
   <meta name="twitter:description" content="A coverage-aware data-collection framework that shifts focus from brute-force scaling to targeted data acquisition for robust mmWave sensing.">
-  <meta name="twitter:image" content="https://galaxywalk.github.io/paper/wicompass/static/images/overview.png">
+  <meta name="twitter:image" content="https://galaxywalk.github.io/paper/wicompass/images/overview.png">
 
   <meta name="citation_title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
   <meta name="citation_author" content="Liang, Bo">
@@ -54,30 +54,30 @@
 
   <title>WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation | MobiCom 2026</title>
 
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="../static/css/bulma.min.css">
+  <link rel="stylesheet" href="../static/css/index.css">
 
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="../static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="../static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="../static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="../static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="../static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="../static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
-  <script defer src="static/js/index.js"></script>
+  <script defer src="../static/js/fontawesome.all.min.js"></script>
+  <script defer src="../static/js/bulma-carousel.min.js"></script>
+  <script defer src="../static/js/bulma-slider.min.js"></script>
+  <script defer src="../static/js/index.js"></script>
 
   <script type="application/ld+json">
   {
@@ -101,7 +101,7 @@
     "datePublished": "2026-10-26",
     "publisher": { "@type": "Organization", "name": "ACM MobiCom" },
     "url": "https://galaxywalk.github.io/paper/wicompass/",
-    "image": "https://galaxywalk.github.io/paper/wicompass/static/images/overview.png",
+    "image": "https://galaxywalk.github.io/paper/wicompass/images/overview.png",
     "keywords": ["mmWave", "human pose estimation", "data scaling", "coverage-aware", "VQ-VAE"],
     "isAccessibleForFree": true
   }
@@ -183,7 +183,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/overview.png" alt="WiCompass framework overview" style="width: 100%;" loading="lazy"/>
+      <img src="images/overview.png" alt="WiCompass framework overview" style="width: 100%;" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
         WiCompass encodes human poses from MoCap and mmWave datasets into a shared latent space via VQ-VAE, uses directional k-NN coverage to identify underrepresented regions, and guides targeted data collection in real or simulated settings.
       </h2>
@@ -233,19 +233,19 @@
       <div class="column is-four-fifths">
         <div id="pilot-carousel" class="carousel results-carousel">
           <div class="item">
-            <img src="static/images/pilot_model_size.png" alt="Model performance vs. model size" loading="lazy"/>
+            <img src="images/pilot_model_size.png" alt="Model performance vs. model size" loading="lazy"/>
             <h2 class="subtitle has-text-centered">
               Model capacity saturates quickly (~10 MB). Larger models yield diminishing returns, ruling out model architecture as the bottleneck.
             </h2>
           </div>
           <div class="item">
-            <img src="static/images/pilot_leave_one_out.png" alt="Leave-one-out generalization test" loading="lazy"/>
+            <img src="images/pilot_leave_one_out.png" alt="Leave-one-out generalization test" loading="lazy"/>
             <h2 class="subtitle has-text-centered">
               Leave-one-out test: holding out a single action causes error to spike ~2.4x, revealing severe OOD fragility in current datasets.
             </h2>
           </div>
           <div class="item">
-            <img src="static/images/pilot_data_efficiency.png" alt="Dataset efficiency analysis" loading="lazy"/>
+            <img src="images/pilot_data_efficiency.png" alt="Dataset efficiency analysis" loading="lazy"/>
             <h2 class="subtitle has-text-centered">
               Discarding 70% of training data causes less than 2% performance drop, exposing massive redundancy in existing datasets.
             </h2>
@@ -272,7 +272,7 @@
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="static/images/vqvae.png" alt="VQ-VAE model architecture" style="max-width: 85%;" loading="lazy"/>
+          <img src="images/vqvae.png" alt="VQ-VAE model architecture" style="max-width: 85%;" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -287,7 +287,7 @@
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="static/images/knn_coverage.png" alt="k-NN coverage in latent space" style="max-width: 75%;" loading="lazy"/>
+          <img src="images/knn_coverage.png" alt="k-NN coverage in latent space" style="max-width: 75%;" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -302,7 +302,7 @@
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="static/images/data_collection_pipeline.png" alt="Coverage-driven data collection workflow" style="max-width: 100%;" loading="lazy"/>
+          <img src="images/data_collection_pipeline.png" alt="Coverage-driven data collection workflow" style="max-width: 100%;" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -325,7 +325,7 @@
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="static/images/data_scaling_simulation.png" alt="Scaling laws comparison on synthetic data" style="max-width: 80%;" loading="lazy"/>
+          <img src="images/data_scaling_simulation.png" alt="Scaling laws comparison on synthetic data" style="max-width: 80%;" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -341,15 +341,15 @@
         </div>
         <div class="columns is-centered">
           <div class="column is-one-third has-text-centered">
-            <img src="static/images/coverage_mmbody.png" alt="mmBody coverage" loading="lazy" style="width:100%"/>
+            <img src="images/coverage_mmbody.png" alt="mmBody coverage" loading="lazy" style="width:100%"/>
             <p class="is-size-7">mmBody vs. AMASS</p>
           </div>
           <div class="column is-one-third has-text-centered">
-            <img src="static/images/coverage_mmfi.png" alt="MMFi coverage" loading="lazy" style="width:100%"/>
+            <img src="images/coverage_mmfi.png" alt="MMFi coverage" loading="lazy" style="width:100%"/>
             <p class="is-size-7">MMFi vs. AMASS</p>
           </div>
           <div class="column is-one-third has-text-centered">
-            <img src="static/images/coverage_wicompass.png" alt="WiCompass coverage" loading="lazy" style="width:100%"/>
+            <img src="images/coverage_wicompass.png" alt="WiCompass coverage" loading="lazy" style="width:100%"/>
             <p class="is-size-7">WiCompass vs. AMASS</p>
           </div>
         </div>
@@ -366,7 +366,7 @@
           </p>
         </div>
         <div class="has-text-centered">
-          <img src="static/images/token_vis.png" alt="Pose token influence visualization" style="max-width: 90%;" loading="lazy"/>
+          <img src="images/token_vis.png" alt="Pose token influence visualization" style="max-width: 90%;" loading="lazy"/>
         </div>
       </div>
     </div>
@@ -382,10 +382,10 @@
         </div>
         <div class="columns is-centered is-vcentered">
           <div class="column is-5 has-text-centered">
-            <img src="static/images/real_world_setup.png" alt="Real-world experiment setup" loading="lazy" style="width:100%"/>
+            <img src="images/real_world_setup.png" alt="Real-world experiment setup" loading="lazy" style="width:100%"/>
           </div>
           <div class="column is-5 has-text-centered">
-            <img src="static/images/real_world_results.png" alt="Real-world validation results" loading="lazy" style="width:100%"/>
+            <img src="images/real_world_results.png" alt="Real-world validation results" loading="lazy" style="width:100%"/>
           </div>
         </div>
       </div>
