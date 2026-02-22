@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. Here is my [CV](../files/CV_bo.pdf).
+I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. Here is my [CV](/files/CV_bo.pdf).
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Besides my current research, I am also interested in the cross field of natural science and wireless networking -- how to build better wireless systems to prompt science researches.
 
@@ -16,7 +16,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-wiswiss.png.png" alt="WiSwiss">
+    <img src="/images/pub/sensys26-wiswiss.png" alt="WiSwiss">
   </div>
   <div class="pub-content">
     <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
