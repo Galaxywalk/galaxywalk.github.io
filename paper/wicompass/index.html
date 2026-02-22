@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
+  <meta name="description" content="WiCompass is a coverage-aware data-collection framework for mmWave Human Pose Estimation. It leverages large-scale motion-capture corpora to build a universal pose space oracle that quantifies dataset redundancy and identifies underrepresented motions.">
+  <meta name="keywords" content="mmWave, human pose estimation, radar sensing, data scaling, coverage-aware, VQ-VAE, MobiCom 2026">
+  <meta name="author" content="Bo Liang, Chen Gong, Haobo Wang, Qirui Liu, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, Kaichen Zhou, Guolong Cui, Chenren Xu">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Peking University">
+  <meta property="og:title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
+  <meta property="og:description" content="A coverage-aware data-collection framework that shifts focus from brute-force scaling to targeted data acquisition for robust mmWave sensing.">
+  <meta property="og:url" content="https://galaxywalk.github.io/paper/wicompass/">
+  <meta property="og:image" content="https://galaxywalk.github.io/paper/wicompass/static/images/overview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Bo Liang">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="mmWave">
+  <meta property="article:tag" content="Human Pose Estimation">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
+  <meta name="twitter:description" content="A coverage-aware data-collection framework that shifts focus from brute-force scaling to targeted data acquisition for robust mmWave sensing.">
+  <meta name="twitter:image" content="https://galaxywalk.github.io/paper/wicompass/static/images/overview.png">
+
+  <meta name="citation_title" content="WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation">
+  <meta name="citation_author" content="Liang, Bo">
+  <meta name="citation_author" content="Gong, Chen">
+  <meta name="citation_author" content="Wang, Haobo">
+  <meta name="citation_author" content="Liu, Qirui">
+  <meta name="citation_author" content="Zhou, Rungui">
+  <meta name="citation_author" content="Shao, Fengzhi">
+  <meta name="citation_author" content="Wang, Yubo">
+  <meta name="citation_author" content="Gao, Wei">
+  <meta name="citation_author" content="Zhou, Kaichen">
+  <meta name="citation_author" content="Cui, Guolong">
+  <meta name="citation_author" content="Xu, Chenren">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="ACM MobiCom 2026">
+
+  <meta name="theme-color" content="#2563eb">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation | MobiCom 2026</title>
+
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation",
+    "description": "A coverage-aware data-collection framework for mmWave Human Pose Estimation that leverages large-scale motion-capture corpora to build a universal pose space oracle.",
+    "author": [
+      { "@type": "Person", "name": "Bo Liang", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Chen Gong", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Haobo Wang", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Qirui Liu", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Rungui Zhou", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Fengzhi Shao", "affiliation": { "@type": "Organization", "name": "UESTC" } },
+      { "@type": "Person", "name": "Yubo Wang", "affiliation": { "@type": "Organization", "name": "UESTC" } },
+      { "@type": "Person", "name": "Wei Gao", "affiliation": { "@type": "Organization", "name": "University of Pittsburgh" } },
+      { "@type": "Person", "name": "Kaichen Zhou", "affiliation": { "@type": "Organization", "name": "MIT" } },
+      { "@type": "Person", "name": "Guolong Cui", "affiliation": { "@type": "Organization", "name": "UESTC" } },
+      { "@type": "Person", "name": "Chenren Xu", "affiliation": { "@type": "Organization", "name": "Peking University" } }
+    ],
+    "datePublished": "2026-10-26",
+    "publisher": { "@type": "Organization", "name": "ACM MobiCom" },
+    "url": "https://galaxywalk.github.io/paper/wicompass/",
+    "image": "https://galaxywalk.github.io/paper/wicompass/static/images/overview.png",
+    "keywords": ["mmWave", "human pose estimation", "data scaling", "coverage-aware", "VQ-VAE"],
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://galaxywalk.github.io" target="_blank">Bo Liang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://gcc17.github.io/" target="_blank">Chen Gong</a><sup>1</sup>,</span>
+              <span class="author-block">Haobo Wang<sup>1</sup>,</span>
+              <span class="author-block">Qirui Liu<sup>1</sup>,</span>
+              <span class="author-block">Rungui Zhou<sup>1</sup>,</span>
+              <span class="author-block">Fengzhi Shao<sup>3</sup>,</span>
+              <span class="author-block">Yubo Wang<sup>3</sup>,</span>
+              <span class="author-block">Wei Gao<sup>4</sup>,</span>
+              <span class="author-block">Kaichen Zhou<sup>5</sup>,</span>
+              <span class="author-block">Guolong Cui<sup>3</sup>,</span>
+              <span class="author-block">
+                <a href="https://soar.group/chenren/" target="_blank">Chenren Xu</a><sup>1,2</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Peking University &nbsp;
+                <sup>2</sup>Key Laboratory of High Confidence Software Technologies, Ministry of Education (PKU) &nbsp;
+                <sup>3</sup>UESTC &nbsp;
+                <sup>4</sup>University of Pittsburgh &nbsp;
+                <sup>5</sup>MIT
+                <br>ACM MobiCom 2026
+              </span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/TBD" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark"
+                  style="pointer-events: none; opacity: 0.6;">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper (coming soon)</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://github.com/Galaxywalk/WiCompass" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Overview figure as teaser -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/overview.png" alt="WiCompass framework overview" style="width: 100%;" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        WiCompass encodes human poses from MoCap and mmWave datasets into a shared latent space via VQ-VAE, uses directional k-NN coverage to identify underrepresented regions, and guides targeted data collection in real or simulated settings.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Millimeter-wave Human Pose Estimation (mmWave HPE) promises privacy but suffers from poor generalization under distribution shifts. We demonstrate that brute-force data scaling is ineffective for out-of-distribution (OOD) robustness; efficiency and coverage are the true bottlenecks. To address this, we introduce WiCompass, a coverage-aware data-collection framework. WiCompass leverages large-scale motion-capture corpora to build a universal pose space "oracle" that quantifies dataset redundancy and identifies underrepresented motions. Guided by this oracle, WiCompass employs a closed-loop policy to prioritize collecting informative missing samples. Experiments show that WiCompass consistently improves OOD accuracy at matched budgets and exhibits superior scaling behavior compared to conventional collection strategies. By shifting focus from brute-force scaling to coverage-aware data acquisition, this work offers a practical path toward robust mmWave sensing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Motivation: Why Data Coverage Matters -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3 has-text-centered">Why Data Coverage Matters</h2>
+        <div class="content has-text-justified">
+          <p>
+            While state-of-the-art mmWave HPE models achieve impressive in-distribution accuracy, their performance degrades sharply under even modest distribution shifts. Our pilot study reveals two critical data-level bottlenecks:
+          </p>
+          <p>
+            <strong>Generalization bottleneck.</strong> Simply withholding a single action (e.g., "Waving hand (left)") from training causes joint localization error to spike from ~50 mm to over 120 mm, even when semantically related motions remain in the training set. Current models learn to interpolate within known distributions but fail to generalize across the true spectrum of human motion.
+          </p>
+          <p>
+            <strong>Efficiency bottleneck.</strong> Naively scaling up data is not only expensive but frequently ineffective. Randomly discarding up to 70% of training samples from existing large-scale datasets results in less than a 2% drop in performance, revealing massive redundancy in current collection practices.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <div id="pilot-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="static/images/pilot_model_size.png" alt="Model performance vs. model size" loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              Model capacity saturates quickly (~10 MB). Larger models yield diminishing returns, ruling out model architecture as the bottleneck.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/pilot_leave_one_out.png" alt="Leave-one-out generalization test" loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              Leave-one-out test: holding out a single action causes error to spike ~2.4x, revealing severe OOD fragility in current datasets.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/pilot_data_efficiency.png" alt="Dataset efficiency analysis" loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              Discarding 70% of training data causes less than 2% performance drop, exposing massive redundancy in existing datasets.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Method -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Method</h2>
+
+    <!-- VQ-VAE -->
+    <div class="columns is-centered" style="margin-top: 1.5rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Universal Pose Tokenizer (VQ-VAE)</h3>
+        <div class="content has-text-justified">
+          <p>
+            We train a VQ-VAE on the AMASS motion capture dataset to learn a universal vocabulary of human motion. The encoder compresses 3D poses into a sequence of discrete tokens from a learned codebook, while the decoder reconstructs poses from these tokens. This quantization maps any pose &mdash; whether from optical MoCap or mmWave estimates &mdash; into a shared set of tokens, enabling modality-agnostic comparison. The discrete space also makes coverage analysis computationally tractable: instead of comparing continuous distributions, we simply measure token distances.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="static/images/vqvae.png" alt="VQ-VAE model architecture" style="max-width: 85%;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- k-NN Coverage -->
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">k-NN Coverage Analysis</h3>
+        <div class="content has-text-justified">
+          <p>
+            We build a k-Nearest Neighbors framework that provides two complementary views of dataset quality. Cross-dataset analysis compares a mmWave dataset against the large MoCap corpus to identify coverage gaps &mdash; poses that are underrepresented in the mmWave data. Intra-dataset analysis uses a Normalized Redundancy Index (NRI) to quantify oversampling within a single dataset. Together, these metrics produce an actionable gap set of missing poses for targeted collection.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="static/images/knn_coverage.png" alt="k-NN coverage in latent space" style="max-width: 75%;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Collection -->
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Coverage-Driven Data Collection</h3>
+        <div class="content has-text-justified">
+          <p>
+            Given the identified gap set, WiCompass selects target poses under a fixed budget using Capped Probability-Proportional-to-Size (Capped-PPS) sampling. This strategy prioritizes sparse, underrepresented regions while filtering extreme outliers that may correspond to physically implausible poses. The selected targets are then realized through either real-world capture (a volunteer mimics on-screen visualizations) or simulation (RF-Genesis ray-tracing simulator). After each acquisition round, coverage is recomputed, forming a closed feedback loop.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="static/images/data_collection_pipeline.png" alt="Coverage-driven data collection workflow" style="max-width: 100%;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Results</h2>
+
+    <!-- Scaling Laws -->
+    <div class="columns is-centered" style="margin-top: 1.5rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Data Scaling Efficiency</h3>
+        <div class="content has-text-justified">
+          <p>
+            WiCompass yields a consistent monotonic decrease in OOD error as dataset size grows, with an order-of-magnitude larger scaling exponent than the conventional baseline. At matched budgets (2k&ndash;40k samples), WiCompass reduces OOD MPJPE by roughly 25&ndash;30 mm compared to the mmBody-trace baseline, and the gap widens with more data.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="static/images/data_scaling_simulation.png" alt="Scaling laws comparison on synthetic data" style="max-width: 80%;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coverage Analysis -->
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Dataset Coverage Analysis</h3>
+        <div class="content has-text-justified">
+          <p>
+            Cross-dataset coverage analysis reveals that existing mmWave datasets occupy only a narrow subset of the human motion manifold. mmBody covers just 3.7% of AMASS at k=12, while WiCompass achieves significantly broader coverage per unit of data budget &mdash; using roughly one-eighth as many samples.
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-one-third has-text-centered">
+            <img src="static/images/coverage_mmbody.png" alt="mmBody coverage" loading="lazy" style="width:100%"/>
+            <p class="is-size-7">mmBody vs. AMASS</p>
+          </div>
+          <div class="column is-one-third has-text-centered">
+            <img src="static/images/coverage_mmfi.png" alt="MMFi coverage" loading="lazy" style="width:100%"/>
+            <p class="is-size-7">MMFi vs. AMASS</p>
+          </div>
+          <div class="column is-one-third has-text-centered">
+            <img src="static/images/coverage_wicompass.png" alt="WiCompass coverage" loading="lazy" style="width:100%"/>
+            <p class="is-size-7">WiCompass vs. AMASS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Token Visualization -->
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Pose Token Visualization</h3>
+        <div class="content has-text-justified">
+          <p>
+            The learned VQ-VAE tokens correspond to semantically meaningful motion primitives. Modifying individual tokens reveals that different tokens control distinct body parts &mdash; for example, one token governs global orientation while another affects the right elbow &mdash; demonstrating the interpretability of the codebook.
+          </p>
+        </div>
+        <div class="has-text-centered">
+          <img src="static/images/token_vis.png" alt="Pose token influence visualization" style="max-width: 90%;" loading="lazy"/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Real-world Validation -->
+    <div class="columns is-centered" style="margin-top: 2rem;">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Real-World Validation</h3>
+        <div class="content has-text-justified">
+          <p>
+            We validate WiCompass with a closed-loop real-world experiment using a 79 GHz FMCW radar paired with a vision motion capture system. Under an identical budget of 8k training frames, WiCompass achieves 105.7 mm test MPJPE, significantly outperforming the conventional baseline (112.9 mm) and approaching the oracle recollection upper bound (95.7 mm).
+          </p>
+        </div>
+        <div class="columns is-centered is-vcentered">
+          <div class="column is-5 has-text-centered">
+            <img src="static/images/real_world_setup.png" alt="Real-world experiment setup" loading="lazy" style="width:100%"/>
+          </div>
+          <div class="column is-5 has-text-centered">
+            <img src="static/images/real_world_results.png" alt="Real-world validation results" loading="lazy" style="width:100%"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
+    </div>
+    <pre id="bibtex-code"><code>@inproceedings{liang2026wicompass,
+  title={WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation},
+  author={Liang, Bo and Gong, Chen and Wang, Haobo and Liu, Qirui and Zhou, Rungui and Shao, Fengzhi and Wang, Yubo and Zhou, Kaichen and Gao, Wei and Cui, Guolong and Xu, Chenren},
+  booktitle={Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </main>
+  </body>
+</html>
