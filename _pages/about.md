@@ -120,7 +120,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-authors"><span class="me">Bo Liang</span>, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu</div>
     <div class="pub-links">
       <a href="/files/nsdi23-RF-Chord.pdf">Paper</a>
-      <a href="https://soar.group/projects/rfid/rfchord/" class="project">Project</a>
+      <a href="/paper/rfchord/" class="project">Project</a>
     </div>
   </div>
 </div>
@@ -213,7 +213,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="intern-title">Embodied AI Research Intern</div>
     <div class="intern-company">LightRobotics</div>
     <div class="intern-time">Sep 2025 - Present</div>
-    <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
+    <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. Build Vision Language Navigation (VLN) Model. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
   </div>
 </div>
 
