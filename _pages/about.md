@@ -32,8 +32,9 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   <div class="pub-content">
     <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
     <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
-    <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, KaiChen Zhou, Chenren Xu</div>
+    <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Qirui Liu, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, Kaichen Zhou, Guolong Cui, Chenren Xu</div>
     <div class="pub-links">
+      <a href="https://arxiv.org/abs/2602.18726">Paper</a>
       <a href="https://github.com/Galaxywalk/WiCompass" class="github">Code</a>
       <a href="/paper/wicompass/" class="project">Project</a>
     </div>
