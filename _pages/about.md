@@ -16,7 +16,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-wiswiss.png" alt="WiSwiss" loading="lazy">
+    <img src="/images/pub/sensys26-wiswiss.webp" alt="WiSwiss" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
@@ -27,7 +27,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/mobicom26-wicompass.png" alt="WiCompass" loading="lazy">
+    <img src="/images/pub/mobicom26-wicompass.webp" alt="WiCompass" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
@@ -43,7 +43,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-mtrack.png" alt="mTrack" loading="lazy">
+    <img src="/images/pub/sensys26-mtrack.webp" alt="mTrack" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</div>
@@ -54,7 +54,18 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfrock.png" alt="RF-Rock" loading="lazy">
+    <img src="/images/pub/lightrider.webp" alt="LightRider" loading="lazy">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">LightRider: Reliable UAV Ground Communication with a Single Laser Tethering Link</div>
+    <div class="pub-venue">SECON 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-authors">Junjie Wang, Kenuo Xu, Zhe Ou, Zhaofeng Luo, <span class="me">Bo Liang</span>, Muhan Li, Xin-Wei Yao, Xiaoming Liu, Lingyang Song, Guobin Shen, Chenren Xu</div>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-img">
+    <img src="/images/pub/rfrock.webp" alt="RF-Rock" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation</div>
@@ -69,7 +80,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/syncheck.png" alt="SynCheck" loading="lazy">
+    <img src="/images/pub/syncheck.webp" alt="SynCheck" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data</div>
@@ -84,7 +95,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/erlangsight.png" alt="Erlang Sight" loading="lazy">
+    <img src="/images/pub/erlangsight.webp" alt="Erlang Sight" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">Erlang Sight: mmWave-based Liquid Identification for Robot Manipulation</div>
@@ -99,7 +110,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retrolidar.png" alt="RetroLiDAR" loading="lazy">
+    <img src="/images/pub/retrolidar.webp" alt="RetroLiDAR" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing</div>
@@ -113,7 +124,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfchord.png" alt="RF-CHORD" loading="lazy">
+    <img src="/images/pub/rfchord.webp" alt="RF-CHORD" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">RF-CHORD: Towards Deployable RFID Localization System for Logistics Network</div>
@@ -128,7 +139,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/secon23.png" alt="SECON Poster" loading="lazy">
+    <img src="/images/pub/secon23.webp" alt="SECON Poster" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">Poster: Empower Smart Agriculture with RFID Reference Infrastructure</div>
@@ -142,7 +153,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retromumimo.png" alt="RetroMUMIMO" loading="lazy">
+    <img src="/images/pub/retromumimo.webp" alt="RetroMUMIMO" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">Low-Latency Visible Light Backscatter Networking with RetroMUMIMO</div>
@@ -156,7 +167,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/eario.png" alt="EarIO" loading="lazy">
+    <img src="/images/pub/eario.webp" alt="EarIO" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements</div>
@@ -172,7 +183,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/proj/ilidar.png" alt="iLiDAR" loading="lazy">
+    <img src="/images/proj/ilidar.webp" alt="iLiDAR" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title"><a href="https://github.com/Galaxywalk/iLiDAR">iLiDAR: iPhone LiDAR + RGB Data Capture Tool</a></div>
@@ -182,7 +193,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/proj/scholarbib.png" alt="GoogleScholarBib" loading="lazy">
+    <img src="/images/proj/scholarbib.webp" alt="GoogleScholarBib" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title"><a href="https://github.com/Galaxywalk/GoogleScholarBib">GoogleScholarBib: One-Click BibTeX Copy for Google Scholar</a></div>
@@ -192,7 +203,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/proj/supersoda.png" alt="SuperSODA" loading="lazy">
+    <img src="/images/proj/supersoda.webp" alt="SuperSODA" loading="lazy">
   </div>
   <div class="pub-content">
     <div class="pub-title">SuperSODA: High-Performance Software Defined Radio Platform</div>
@@ -208,7 +219,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="intern-entry">
   <div class="intern-logo">
-    <img src="/images/intern/lightrobotics_logo.jpeg" alt="LightRobotics" loading="lazy">
+    <img src="/images/intern/lightrobotics_logo.webp" alt="LightRobotics" loading="lazy">
   </div>
   <div class="intern-content">
     <div class="intern-title">Embodied AI Research Intern</div>
@@ -220,7 +231,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="intern-entry">
   <div class="intern-logo">
-    <img src="/images/intern/microsoft_logo.jpeg" alt="Microsoft Research Asia" loading="lazy">
+    <img src="/images/intern/microsoft_logo.webp" alt="Microsoft Research Asia" loading="lazy">
   </div>
   <div class="intern-content">
     <div class="intern-title">Embodied AI Research Intern</div>
@@ -232,7 +243,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="intern-entry">
   <div class="intern-logo">
-    <img src="/images/intern/alibaba_cloud_computing_company_logo.jpeg" alt="Alibaba DAMO Academy" loading="lazy">
+    <img src="/images/intern/alibaba_cloud_computing_company_logo.webp" alt="Alibaba DAMO Academy" loading="lazy">
   </div>
   <div class="intern-content">
     <div class="intern-title">Software-Hardware Engineer</div>
