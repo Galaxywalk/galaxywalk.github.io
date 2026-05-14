@@ -20,8 +20,11 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   </div>
   <div class="pub-content">
     <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
-    <div class="pub-venue">SenSys 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-venue">SenSys 2026</div>
     <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Qihao Zhu, Wei Gao, Yin Chen, Jin Nakazawa, Chenren Xu</div>
+    <div class="pub-links">
+      <a href="/files/sensys26-wiswiss.pdf">Paper</a>
+    </div>
   </div>
 </div>
 
@@ -47,8 +50,11 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   </div>
   <div class="pub-content">
     <div class="pub-title">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</div>
-    <div class="pub-venue">SenSys 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-venue">SenSys 2026 <span class="award">🏆 Best Paper Honorable Mention</span></div>
     <div class="pub-authors">Xingyuming Liu, <span class="me">Bo Liang</span>, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu</div>
+    <div class="pub-links">
+      <a href="/files/sensys26-mtrack.pdf">Paper</a>
+    </div>
   </div>
 </div>
 
