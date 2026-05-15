@@ -230,7 +230,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   <div class="intern-content">
     <div class="intern-title">Embodied AI Research Intern</div>
     <div class="intern-company">LightRobotics</div>
-    <div class="intern-time">Sep 2025 - Present</div>
+    <div class="intern-time">Sep 2025 - Apr 2026</div>
     <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. Build Vision Language Navigation (VLN) Model. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
   </div>
 </div>
