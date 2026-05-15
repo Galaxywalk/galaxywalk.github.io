@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. Here is my [CV](/files/CV_bo.pdf).
+I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents, with an emphasis on data scaling for improving generalization.
 
-I received my B.S degree from the School of Physics at Peking University in 2022. Besides my current research, I am also interested in the cross field of natural science and wireless networking -- how to build better wireless systems to promote scientific research.
+I received my B.S degree from the School of Physics at Peking University in 2022. Here is my [CV](/files/CV_bo.pdf).
 
 <h2 class="section-title">📚 Publications</h2>
 
