@@ -16,20 +16,6 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-wiswiss.webp" alt="WiSwiss" loading="lazy">
-  </div>
-  <div class="pub-content">
-    <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
-    <div class="pub-venue">SenSys 2026</div>
-    <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Qihao Zhu, Wei Gao, Yin Chen, Jin Nakazawa, Chenren Xu</div>
-    <div class="pub-links">
-      <a href="/files/sensys26-wiswiss.pdf">Paper</a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-entry">
-  <div class="pub-img">
     <img src="/images/pub/mobicom26-wicompass.webp" alt="WiCompass" loading="lazy">
   </div>
   <div class="pub-content">
@@ -46,6 +32,21 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
+    <img src="/images/pub/sensys26-wiswiss.webp" alt="WiSwiss" loading="lazy">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
+    <div class="pub-venue">SenSys 2026</div>
+    <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Qihao Zhu, Wei Gao, Yin Chen, Jin Nakazawa, Chenren Xu</div>
+    <div class="pub-links">
+      <a href="/files/sensys26-wiswiss.pdf">Paper</a>
+      <a href="https://github.com/SenSys26WiSwiss/WiSwiss" class="github">Code</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-img">
     <img src="/images/pub/sensys26-mtrack.webp" alt="mTrack" loading="lazy">
   </div>
   <div class="pub-content">
@@ -54,6 +55,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-authors">Xingyuming Liu, <span class="me">Bo Liang</span>, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu</div>
     <div class="pub-links">
       <a href="/files/sensys26-mtrack.pdf">Paper</a>
+      <a href="https://github.com/SOAR-PKU/mTrack" class="github">Code</a>
     </div>
   </div>
 </div>
