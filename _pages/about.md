@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents, with an emphasis on data scaling for improving generalization.
+I am a fifth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents.
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Here is my [CV](/files/CV_bo.pdf).
 
@@ -224,6 +224,18 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 </div>
 
 <h2 class="section-title">💼 Internships</h2>
+
+<div class="intern-entry">
+  <div class="intern-logo" aria-hidden="true">
+    <strong>SSI</strong>
+  </div>
+  <div class="intern-content">
+    <div class="intern-title">Algorithm Engineer Intern</div>
+    <div class="intern-company">Simple Silicon Inc.</div>
+    <div class="intern-time">Apr 2026 - Present</div>
+    <div class="intern-desc">Developing foundation models for embodied AI, focusing on VLA and WAM.</div>
+  </div>
+</div>
 
 <div class="intern-entry">
   <div class="intern-logo">
