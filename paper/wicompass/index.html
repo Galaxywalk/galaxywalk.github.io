@@ -58,6 +58,7 @@
 
   <link rel="stylesheet" href="../static/css/bulma.min.css">
   <link rel="stylesheet" href="../static/css/index.css">
+  <link rel="stylesheet" href="styles.css">
 
   <link rel="preload" href="../static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="../static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -186,6 +187,32 @@
       <h2 class="subtitle has-text-centered">
         WiCompass encodes human poses from MoCap and mmWave datasets into a shared latent space via VQ-VAE, uses directional k-NN coverage to identify underrepresented regions, and guides targeted data collection in real or simulated settings.
       </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Quick video -->
+<section class="section quick-video-section" aria-labelledby="quick-video-title">
+  <div class="container is-max-desktop quick-video-container">
+    <div class="quick-video-intro">
+      <div>
+        <p class="quick-video-kicker">87-second overview</p>
+        <h2 class="title is-3 quick-video-title" id="quick-video-title">WiCompass in motion</h2>
+      </div>
+      <p class="quick-video-description">
+        See the generalization gap, the coverage-aware collection loop, and the real-world results in one concise visual tour.
+      </p>
+    </div>
+
+    <div class="quick-video-frame">
+      <video class="quick-video-player" controls preload="metadata" playsinline
+        poster="images/wicompass-quick-video-poster.png"
+        aria-label="WiCompass 87-second project overview">
+        <source src="videos/wicompass-quick-video.mp4" type="video/mp4">
+        <track kind="captions" src="videos/wicompass-quick-video.en.vtt" srclang="en" label="English" default>
+        Your browser does not support HTML5 video. <a href="videos/wicompass-quick-video.mp4">Open the video</a> instead.
+      </video>
     </div>
   </div>
 </section>

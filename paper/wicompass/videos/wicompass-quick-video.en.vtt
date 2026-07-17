@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.250 --> 00:00:11.550
+WiCompass: Oracle-driven Data Scaling for millimeter-wave Human Pose Estimation. This MobiCom 2026 paper is by Peking University, UESTC, Pitt, and MIT.
+
+00:00:12.450 --> 00:00:18.300
+Millimeter-wave radar estimates human poses from sparse reflections, preserving visual privacy.
+
+00:00:18.950 --> 00:00:26.925
+But on the same left-hand-wave test, excluding it from training raises error from 41.1 to 151.1 millimeters.
+
+00:00:27.950 --> 00:00:34.050
+Directly collecting more data barely helps: on mmBody, a thirty-percent subset performs nearly the same.
+
+00:00:34.750 --> 00:00:49.575
+To solve this, WiCompass maps motion-capture poses and millimeter-wave pose labels into a shared pose space. The motion prior reveals which valid poses radar data has missed. WiCompass collects those poses selectively, adds the new samples, then repeats the loop.
+
+00:00:51.050 --> 00:00:59.900
+In simulation, WiCompass scales while the mmBody trace saturates, staying twenty-five to thirty millimeters lower from two thousand to forty thousand samples.
+
+00:01:00.830 --> 00:01:11.305
+In real-world evaluation, WiCompass beats action-list collection: 105.7 millimeters on held-out poses versus 112.9, at similar training error.
+
+00:01:12.030 --> 00:01:22.305
+For millimeter-wave human pose estimation, data quality matters more than scale: measure pose coverage and guide costly RF collection with inexpensive motion-capture priors.
+
+00:01:23.330 --> 00:01:26.005
+Scan to explore the WiCompass repository.
