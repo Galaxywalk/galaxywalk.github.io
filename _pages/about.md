@@ -16,6 +16,22 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
+    <img src="/images/pub/wave2body.webp" alt="Wave2Body" loading="lazy">
+  </div>
+  <div class="pub-content">
+    <div class="pub-title">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</div>
+    <div class="pub-venue">2026 Preprint</div>
+    <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Wei Gao, Chenren Xu</div>
+    <div class="pub-links">
+      <a href="/files/Wave2Body.pdf">Paper</a>
+      <a href="https://github.com/Galaxywalk/Wave2Body" class="github">Code</a>
+      <a href="/paper/wave2body/" class="project">Project</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-img">
     <img src="/images/pub/mobicom26-wicompass.webp" alt="WiCompass" loading="lazy">
   </div>
   <div class="pub-content">
