@@ -35,7 +35,6 @@
   <meta name="citation_author" content="Gao, Wei">
   <meta name="citation_author" content="Xu, Chenren">
   <meta name="citation_publication_date" content="2026">
-  <meta name="citation_pdf_url" content="https://galaxywalk.github.io/files/Wave2Body.pdf">
   <meta name="citation_language" content="en">
 
   <meta name="theme-color" content="#2563eb">
@@ -69,12 +68,7 @@
     "url": "https://galaxywalk.github.io/paper/wave2body/",
     "image": "https://galaxywalk.github.io/paper/wave2body/images/overview.webp",
     "keywords": ["mmWave", "human pose estimation", "radar sensing", "token translation", "VQ-VAE"],
-    "isAccessibleForFree": true,
-    "encoding": {
-      "@type": "MediaObject",
-      "contentUrl": "https://galaxywalk.github.io/files/Wave2Body.pdf",
-      "encodingFormat": "application/pdf"
-    }
+    "isAccessibleForFree": true
   }
   </script>
 </head>
@@ -91,7 +85,7 @@
         <div class="container is-max-desktop">
           <div class="columns is-centered">
             <div class="column has-text-centered">
-              <p class="publication-kicker">2026 Preprint</p>
+              <p class="publication-kicker">2026 Preprint &middot; arXiv coming soon</p>
               <h1 class="title is-1 publication-title">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</h1>
 
               <div class="is-size-5 publication-authors">
@@ -113,9 +107,10 @@
               <div class="column has-text-centered publication-resource-column">
                 <div class="publication-links">
                   <span class="link-block">
-                    <a href="../../files/Wave2Body.pdf" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
-                      <span class="resource-icon" aria-hidden="true">PDF</span>
+                    <a href="https://arxiv.org/search/?query=Wave2Body&amp;searchtype=all" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark" aria-label="Search arXiv for Wave2Body (coming soon)">
+                      <span class="resource-icon resource-icon--arxiv" aria-hidden="true">arXiv</span>
                       <span>Paper</span>
+                      <span class="resource-status">Coming soon</span>
                     </a>
                   </span>
                   <span class="link-block">
@@ -150,6 +145,30 @@
           <p class="subtitle has-text-centered overview-caption">
             Wave2Body replaces direct coordinate regression with a reusable interface: a self-supervised mmWave tokenizer produces continuous radar tokens, a lightweight translator maps them into discrete body tokens, and a separate localization head recovers global position.
           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick video -->
+    <section class="section quick-video-section" aria-labelledby="quick-video-title">
+      <div class="container is-max-desktop quick-video-container">
+        <div class="quick-video-intro">
+          <div>
+            <p class="quick-video-kicker">60-second overview</p>
+            <h2 class="title is-3 quick-video-title" id="quick-video-title">Wave2Body in motion</h2>
+          </div>
+          <p class="quick-video-description">
+            See how sparse radar reflections become structured body tokens, why decoupled training matters, and where the resulting gains come from in one concise visual tour.
+          </p>
+        </div>
+
+        <div class="quick-video-frame">
+          <video class="quick-video-player" controls preload="metadata" playsinline
+            poster="images/wave2body-teaser-poster.png"
+            aria-label="Wave2Body 60-second project overview">
+            <source src="videos/wave2body-teaser.mp4" type="video/mp4">
+            Your browser does not support HTML5 video. <a href="videos/wave2body-teaser.mp4">Open the video</a> instead.
+          </video>
         </div>
       </div>
     </section>
