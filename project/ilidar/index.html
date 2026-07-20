@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iLiDAR is an open-source iOS app that streams synchronized iPhone LiDAR depth and RGB frames to a Python server for robotics and computer-vision data capture.">
+  <meta name="author" content="Bo Liang">
+  <meta name="google-site-verification" content="lqAGWpfamMQhI_HkZl61m76Kfcg0DkAkV1MgixqHTns">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>iLiDAR: iPhone LiDAR and RGB-D Streaming</title>
+  <link rel="canonical" href="https://galaxywalk.github.io/project/ilidar/">
+  <link rel="icon" href="../../images/favicon.ico">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bo Liang | Peking University">
+  <meta property="og:title" content="iLiDAR: iPhone LiDAR and RGB-D Streaming">
+  <meta property="og:description" content="An open-source iOS and Python tool for streaming synchronized iPhone LiDAR depth and RGB frames to a computer.">
+  <meta property="og:url" content="https://galaxywalk.github.io/project/ilidar/">
+  <meta property="og:image" content="https://galaxywalk.github.io/images/proj/ilidar.webp">
+  <meta property="og:image:width" content="1508">
+  <meta property="og:image:height" content="1076">
+  <meta property="og:image:alt" content="iLiDAR app showing a colorized depth map and network streaming settings">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iLiDAR: iPhone LiDAR and RGB-D Streaming">
+  <meta name="twitter:description" content="Open-source iOS and Python tools for synchronized iPhone LiDAR depth and RGB data capture.">
+  <meta name="twitter:image" content="https://galaxywalk.github.io/images/proj/ilidar.webp">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://galaxywalk.github.io/project/ilidar/#webpage",
+        "url": "https://galaxywalk.github.io/project/ilidar/",
+        "name": "iLiDAR: iPhone LiDAR and RGB-D Streaming",
+        "description": "An open-source iOS app for synchronized iPhone LiDAR depth and RGB streaming to a Python server.",
+        "inLanguage": "en",
+        "mainEntity": { "@id": "https://galaxywalk.github.io/project/ilidar/#software" }
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://galaxywalk.github.io/project/ilidar/#software",
+        "name": "iLiDAR",
+        "alternateName": "iPhone LiDAR RGB-D Streaming Tool",
+        "description": "iLiDAR turns a LiDAR-equipped iPhone or iPad into a real-time RGB-D sensor and streams synchronized depth, color, and camera parameters to a computer.",
+        "url": "https://galaxywalk.github.io/project/ilidar/",
+        "codeRepository": "https://github.com/Galaxywalk/iLiDAR",
+        "downloadUrl": "https://github.com/Galaxywalk/iLiDAR/archive/refs/heads/main.zip",
+        "programmingLanguage": ["Swift", "Python"],
+        "runtimePlatform": ["iOS", "macOS", "Windows", "Linux"],
+        "license": "https://opensource.org/licenses/MIT",
+        "isAccessibleForFree": true,
+        "image": "https://galaxywalk.github.io/images/proj/ilidar.webp",
+        "author": {
+          "@type": "Person",
+          "name": "Bo Liang",
+          "alternateName": "梁博",
+          "url": "https://galaxywalk.github.io/"
+        },
+        "keywords": "iPhone LiDAR, RGB-D, ARKit, depth camera, real-time streaming, robotics data capture"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-name" href="../../">Bo Liang</a>
+      <a href="https://github.com/Galaxywalk/iLiDAR" target="_blank" rel="noopener">GitHub repository</a>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <header class="project-header">
+      <h1>iLiDAR</h1>
+      <p class="lead">An open-source iOS app for streaming synchronized LiDAR depth and RGB frames from an iPhone or iPad to a computer.</p>
+      <p class="project-links">
+        <a href="https://github.com/Galaxywalk/iLiDAR" target="_blank" rel="noopener">Source code</a>
+        <span aria-hidden="true">·</span>
+        <a href="#quick-start">Quick start</a>
+        <span aria-hidden="true">·</span>
+        <a href="https://github.com/Galaxywalk/iLiDAR/blob/main/full_tutorial.md" target="_blank" rel="noopener">Full tutorial</a>
+      </p>
+    </header>
+
+    <figure class="project-image">
+      <img src="../../images/proj/ilidar.webp" width="1508" height="1076" alt="Three iLiDAR iPhone screens showing a colorized depth view, camera controls, and Wi-Fi streaming settings" fetchpriority="high">
+      <figcaption>The iOS client provides a depth preview, capture settings, and local-network streaming.</figcaption>
+    </figure>
+
+    <section aria-labelledby="overview-title">
+      <h2 id="overview-title">Overview</h2>
+      <p>iLiDAR uses the LiDAR scanner on supported Apple devices as an RGB-D sensor. The iOS client captures depth and color frames and sends them over the local network to a Python receiver.</p>
+      <ul>
+        <li>Synchronized RGB and LiDAR depth capture</li>
+        <li>Local Wi-Fi streaming over TCP</li>
+        <li>Adjustable transmission frequency and depth range</li>
+        <li>Output in JPG, BIN, and CSV formats</li>
+        <li>Swift client and Python receiver released under the MIT License</li>
+      </ul>
+    </section>
+
+    <section id="quick-start" aria-labelledby="quick-start-title">
+      <h2 id="quick-start-title">Quick start</h2>
+
+      <h3>1. Install the iOS client</h3>
+      <ol>
+        <li>Clone the repository and open <code>iLiDAR.xcworkspace</code> in Xcode.</li>
+        <li>Select your development team and a connected iPhone or iPad with LiDAR.</li>
+        <li>Build the app and allow Camera and Local Network access.</li>
+      </ol>
+
+      <h3>2. Start the Python receiver</h3>
+      <pre><code>git clone https://github.com/Galaxywalk/iLiDAR.git
+cd iLiDAR/Server
+conda create -n ilidar python=3.10 -y
+conda activate ilidar
+pip install -r requirements.txt
+python ios_driver.py</code></pre>
+
+      <h3>3. Connect the devices</h3>
+      <p>Connect the phone and computer to the same Wi-Fi network. Enter the computer's local IP address in iLiDAR, tap <strong>Connect</strong>, and start the transfer. The receiver listens on TCP port <code>5678</code>.</p>
+    </section>
+
+    <section aria-labelledby="output-title">
+      <h2 id="output-title">Output files</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Format</th>
+              <th>Content</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>.jpg</code></td>
+              <td>RGB frame</td>
+              <td>JPEG image</td>
+            </tr>
+            <tr>
+              <td><code>.bin</code></td>
+              <td>Depth map</td>
+              <td>320 × 240, float16</td>
+            </tr>
+            <tr>
+              <td><code>.csv</code></td>
+              <td>Camera parameters</td>
+              <td>One file per session</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="requirements-title">
+      <h2 id="requirements-title">Requirements</h2>
+      <ul>
+        <li>An iPhone Pro or iPad Pro with a LiDAR scanner</li>
+        <li>A Mac with Xcode for installing the iOS client</li>
+        <li>Python 3.10 for the receiver</li>
+        <li>Both devices connected to the same local network</li>
+      </ul>
+      <p class="note">The iOS Simulator does not provide the required LiDAR depth data. See Apple's <a href="https://support.apple.com/en-us/102468" target="_blank" rel="noopener">supported device list</a>.</p>
+    </section>
+
+    <section aria-labelledby="more-title">
+      <h2 id="more-title">More information</h2>
+      <p>See the <a href="https://github.com/Galaxywalk/iLiDAR/blob/main/full_tutorial.md" target="_blank" rel="noopener">full tutorial</a> for detailed setup and usage, or browse the <a href="https://github.com/Galaxywalk/iLiDAR" target="_blank" rel="noopener">source code on GitHub</a>. iLiDAR is available under the <a href="https://github.com/Galaxywalk/iLiDAR/blob/main/LICENSE.txt" target="_blank" rel="noopener">MIT License</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>iLiDAR by <a href="../../">Bo Liang</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Home"
+title                    : "Bo Liang · Peking University"
 title_separator          : "-"
 name                     : &name "Bo Liang's Homepage"
-description              : &description "I am a 4th year Ph.D. student at School of Computer Science in Peking University, advised by Professor Chenren Xu. My research focuses on hardware-software co-design systems to enhance sensing capabilities for humans and embodied agents."
+description              : &description "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
 url                      : https://galaxywalk.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Bo Liang"
   pronouns         : # example: "she/her"  
-  bio              : "Facilitate human-to-human connections!"
+  bio              : "Ph.D. student at Peking University working on embodied AI and wireless sensing."
   location         : "Beijing, China"
   employer         : 
   uri              : # URL
@@ -93,7 +93,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification: "lqAGWpfamMQhI_HkZl61m76Kfcg0DkAkV1MgixqHTns"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -107,12 +107,22 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "profile.png"
-og_description           : "Bo Liang - 4th year Ph.D. student at Peking University. Research on hardware-software co-design systems for sensing."
+og_description           : "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : "Person"
   name                   : "Bo Liang"
+  alternate_name         : "梁博"
+  job_title              : "Ph.D. Student in Computer Science"
+  affiliation            : "Peking University"
+  image                  : "https://galaxywalk.github.io/images/profile.jpg"
+  description            : "Researcher working on embodied AI, robotics foundation models, wireless sensing, and hardware-software co-design."
+  knows_about:
+    - "Embodied AI"
+    - "Robotics foundation models"
+    - "Wireless sensing"
+    - "Hardware-software co-design"
   links:
     - "https://scholar.google.com/citations?user=QHw8XUIAAAAJ"
     - "https://github.com/galaxywalk"

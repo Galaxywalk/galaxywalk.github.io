@@ -1,7 +1,10 @@
 ---
 permalink: /
 title: "Bo Liang (梁博)"
-excerpt: "About me"
+seo_title: "Bo Liang (梁博) · Peking University · Embodied AI"
+description: "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
+excerpt: "Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and hardware-software co-design."
+last_modified_at: 2026-07-20T00:00:00+08:00
 author_profile: true
 redirect_from: 
   - /about/
@@ -11,6 +14,8 @@ redirect_from:
 I am a fifth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents.
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Here is my [CV](/files/CV_bo.pdf).
+
+<p lang="zh-CN">梁博，北京大学计算机学院博士生，研究方向包括具身智能、机器人基础模型、无线感知与软硬件协同设计。</p>
 
 <h2 class="section-title">📚 Publications</h2>
 
@@ -209,11 +214,15 @@ I received my B.S degree from the School of Physics at Peking University in 2022
 
 <div class="pub-entry">
   <div class="pub-img">
-    <img src="/images/proj/ilidar.webp" alt="iLiDAR" loading="lazy">
+    <img src="/images/proj/ilidar.webp" alt="iLiDAR app showing an iPhone LiDAR depth map and network streaming settings" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title"><a href="https://github.com/Galaxywalk/iLiDAR">iLiDAR: iPhone LiDAR + RGB Data Capture Tool</a></div>
-    <div class="pub-authors">Transform your iPhone into a multi-modal visual sensor. Real-time LiDAR depth map and RGB video streaming and synchronization to PC for robotics data collection.</div>
+    <div class="pub-title"><a href="/project/ilidar/">iLiDAR: Real-Time iPhone LiDAR + RGB-D Streaming</a></div>
+    <div class="pub-authors">Turn a LiDAR-equipped iPhone into an open-source RGB-D sensor. Capture synchronized depth and color frames and stream them to a Python server for robotics and computer-vision data collection.</div>
+    <div class="pub-links">
+      <a href="https://github.com/Galaxywalk/iLiDAR" class="github">Code</a>
+      <a href="/project/ilidar/" class="project">Project</a>
+    </div>
   </div>
 </div>
 

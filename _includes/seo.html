@@ -6,7 +6,9 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 
@@ -87,15 +89,69 @@
 {% endif %}
 
 {% if site.social %}
+  {% assign person_id = seo_url | append: "/#person" %}
+  {% assign website_id = seo_url | append: "/#website" %}
+  {% assign profile_id = seo_url | append: "/#profile" %}
+  {% if page.url == "/" %}
   <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": {{ website_id | jsonify }},
+          "url": {{ seo_url | append: "/" | jsonify }},
+          "name": {{ site.title | jsonify }},
+          "description": {{ site.description | jsonify }},
+          "inLanguage": {{ site.locale | jsonify }},
+          "publisher": { "@id": {{ person_id | jsonify }} }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": {{ profile_id | jsonify }},
+          "url": {{ seo_url | append: "/" | jsonify }},
+          "name": {{ page.title | jsonify }},
+          "description": {{ seo_description | jsonify }},
+          "mainEntity": { "@id": {{ person_id | jsonify }} }
+        },
+        {
+          "@type": "Person",
+          "@id": {{ person_id | jsonify }},
+          "name": {{ site.social.name | default: site.name | jsonify }},
+          "alternateName": {{ site.social.alternate_name | jsonify }},
+          "url": {{ seo_url | append: "/" | jsonify }},
+          "image": {{ site.social.image | jsonify }},
+          "description": {{ site.social.description | jsonify }},
+          "jobTitle": {{ site.social.job_title | jsonify }},
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.social.affiliation | jsonify }}
+          },
+          "knowsAbout": {{ site.social.knows_about | jsonify }},
+          "sameAs": {{ site.social.links | jsonify }}
+        }
+      ]
     }
   </script>
+  {% else %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.social.name | default: site.name | jsonify }},
+      "alternateName": {{ site.social.alternate_name | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "image": {{ site.social.image | jsonify }},
+      "jobTitle": {{ site.social.job_title | jsonify }},
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": {{ site.social.affiliation | jsonify }}
+      },
+      "sameAs": {{ site.social.links | jsonify }}
+    }
+  </script>
+  {% endif %}
 {% endif %}
 
 {% if site.google_site_verification %}
@@ -126,17 +182,6 @@
 {% endif %}
 {% if seo_url %}
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-{% endif %}
-
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
 {% endif %}
 
 {% if page.header.image %}
