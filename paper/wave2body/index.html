@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation">
+  <meta name="description" content="Wave2Body decouples mmWave perception, body structure, and cross-modal alignment by translating self-supervised radar tokens into compositional body tokens.">
+  <meta name="keywords" content="mmWave, human pose estimation, radar sensing, token translation, VQ-VAE, self-supervised learning, M4Human, mmBody">
+  <meta name="author" content="Bo Liang, Chen Gong, Wei Gao, Chenren Xu">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Peking University">
+  <meta property="og:title" content="Wave2Body: Radar-to-Body Token Translation">
+  <meta property="og:description" content="Rethinking mmWave human pose estimation through independently pretrained radar and body token spaces.">
+  <meta property="og:url" content="https://galaxywalk.github.io/paper/wave2body/">
+  <meta property="og:image" content="https://galaxywalk.github.io/paper/wave2body/images/overview.webp">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="702">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="mmWave">
+  <meta property="article:tag" content="Human Pose Estimation">
+  <meta property="article:tag" content="Token Translation">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wave2Body: Radar-to-Body Token Translation">
+  <meta name="twitter:description" content="A decoupled token-translation framework for generalizable and efficient mmWave human pose estimation.">
+  <meta name="twitter:image" content="https://galaxywalk.github.io/paper/wave2body/images/overview.webp">
+
+  <meta name="citation_title" content="Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation">
+  <meta name="citation_author" content="Liang, Bo">
+  <meta name="citation_author" content="Gong, Chen">
+  <meta name="citation_author" content="Gao, Wei">
+  <meta name="citation_author" content="Xu, Chenren">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_language" content="en">
+
+  <meta name="theme-color" content="#2563eb">
+
+  <link rel="canonical" href="https://galaxywalk.github.io/paper/wave2body/">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <title>Wave2Body: Radar-to-Body Token Translation | 2026 Preprint</title>
+
+  <link rel="stylesheet" href="../static/css/bulma.min.css">
+  <link rel="stylesheet" href="../static/css/index.css">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation",
+    "description": "A radar-to-body token translation framework that decouples mmWave perception, human-body structure, and cross-modal alignment.",
+    "author": [
+      { "@type": "Person", "name": "Bo Liang", "url": "https://galaxywalk.github.io", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Chen Gong", "url": "https://gcc17.github.io/", "affiliation": { "@type": "Organization", "name": "Peking University" } },
+      { "@type": "Person", "name": "Wei Gao", "url": "https://sites.pitt.edu/~weigao/", "affiliation": { "@type": "Organization", "name": "University of Pittsburgh" } },
+      { "@type": "Person", "name": "Chenren Xu", "url": "https://soar.group/chenren/", "affiliation": { "@type": "Organization", "name": "Peking University" } }
+    ],
+    "datePublished": "2026",
+    "url": "https://galaxywalk.github.io/paper/wave2body/",
+    "image": "https://galaxywalk.github.io/paper/wave2body/images/overview.webp",
+    "keywords": ["mmWave", "human pose estimation", "radar sensing", "token translation", "VQ-VAE"],
+    "isAccessibleForFree": true
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <button class="scroll-to-top" id="scroll-to-top" type="button" title="Scroll to top" aria-label="Scroll to top">
+    <span aria-hidden="true">&#8593;</span>
+  </button>
+
+  <main id="main-content">
+    <section class="hero publication-header">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <p class="publication-kicker">2026 Preprint &middot; arXiv coming soon</p>
+              <h1 class="title is-1 publication-title">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</h1>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><a href="https://galaxywalk.github.io" target="_blank" rel="noopener">Bo Liang</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://gcc17.github.io/" target="_blank" rel="noopener">Chen Gong</a><sup>1</sup>,</span>
+                <span class="author-block"><a href="https://sites.pitt.edu/~weigao/" target="_blank" rel="noopener">Wei Gao</a><sup>2</sup>,</span>
+                <span class="author-block"><a href="https://soar.group/chenren/" target="_blank" rel="noopener">Chenren Xu</a><sup>1,3,*</sup></span>
+              </div>
+
+              <div class="is-size-5 publication-authors publication-affiliations">
+                <span class="author-block">
+                  <sup>1</sup>School of Computer Science, Peking University &nbsp;
+                  <sup>2</sup>University of Pittsburgh<br>
+                  <sup>3</sup>Key Laboratory of High Confidence Software Technologies, Ministry of Education (PKU)<br>
+                  <span class="corresponding-author"><sup>*</sup>Corresponding author</span>
+                </span>
+              </div>
+
+              <div class="column has-text-centered publication-resource-column">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="https://arxiv.org/search/?query=Wave2Body&amp;searchtype=all" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark" aria-label="Search arXiv for Wave2Body (coming soon)">
+                      <span class="resource-icon resource-icon--arxiv" aria-hidden="true">arXiv</span>
+                      <span>Paper</span>
+                      <span class="resource-status">Coming soon</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a href="https://github.com/Galaxywalk/Wave2Body" target="_blank" rel="noopener" class="external-link button is-normal is-rounded is-dark">
+                      <span class="resource-icon" aria-hidden="true">&lt;/&gt;</span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+
+              <div class="token-translation" role="img" aria-label="Continuous radar tokens are translated into discrete body tokens">
+                <span class="token-label token-label--radar">Radar tokens</span>
+                <span class="token-pack token-pack--radar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+                <span class="token-arrow" aria-hidden="true">&#8594;</span>
+                <span class="translator-label">Translator</span>
+                <span class="token-arrow token-arrow--body" aria-hidden="true">&#8594;</span>
+                <span class="token-pack token-pack--body" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+                <span class="token-label token-label--body">Body tokens</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser" aria-labelledby="overview-title">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <h2 class="is-sr-only" id="overview-title">Wave2Body overview</h2>
+          <img class="overview-image" src="images/overview.webp" width="1600" height="702" alt="Wave2Body overview comparing direct coordinate regression with radar-to-body token translation" fetchpriority="high">
+          <p class="subtitle has-text-centered overview-caption">
+            Wave2Body replaces direct coordinate regression with a reusable interface: a self-supervised mmWave tokenizer produces continuous radar tokens, a lightweight translator maps them into discrete body tokens, and a separate localization head recovers global position.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick video -->
+    <section class="section quick-video-section" aria-labelledby="quick-video-title">
+      <div class="container is-max-desktop quick-video-container">
+        <div class="quick-video-intro">
+          <div>
+            <p class="quick-video-kicker">60-second overview</p>
+            <h2 class="title is-3 quick-video-title" id="quick-video-title">Wave2Body in motion</h2>
+          </div>
+          <p class="quick-video-description">
+            See how sparse radar reflections become structured body tokens, why decoupled training matters, and where the resulting gains come from in one concise visual tour.
+          </p>
+        </div>
+
+        <div class="quick-video-frame">
+          <video class="quick-video-player" controls preload="metadata" playsinline
+            poster="images/wave2body-teaser-poster.png"
+            aria-label="Wave2Body 60-second project overview">
+            <source src="videos/wave2body-teaser.mp4" type="video/mp4">
+            Your browser does not support HTML5 video. <a href="videos/wave2body-teaser.mp4">Open the video</a> instead.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light" id="abstract" aria-labelledby="abstract-title">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3" id="abstract-title">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Millimeter-wave (mmWave) radar enables privacy-friendly human sensing, but its sparse point clouds are physical measurements of view-dependent electromagnetic reflections and only indirectly characterize body articulation. Recovering a complete 3D pose from such partial, geometry-dependent observations is therefore under-constrained. Existing methods directly regress joint coordinates from paired radar-pose data, relying on the same limited paired supervision to learn radar perception, human-body structure, and their alignment. This coupling can encourage dataset-specific shortcuts under ambiguous radar observations. We propose Wave2Body, a radar-to-body token translation framework that decouples these learning targets using a self-supervised mmWave tokenizer, a pretrained compositional body tokenizer that defines the output space, and a lightweight translator between them. Experiments on M4Human and mmBody show that Wave2Body achieves stronger cross-domain generalization than previous methods while incurring much lower computational costs for training and inference.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="motivation" aria-labelledby="motivation-title">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered" id="motivation-title">Why Rethink Coordinate Regression?</h2>
+            <div class="content has-text-justified">
+              <p>
+                Radar returns depend on body geometry, orientation, motion, signal propagation, and sensor configuration. They are sparse, view-dependent reflections rather than dense observations of anatomical joints, so multiple plausible body configurations can agree with the same partial measurement.
+              </p>
+              <p>
+                <strong>Entangled learning targets.</strong> A conventional supervised regressor asks the same limited paired radar-pose dataset to learn sensor representations, valid human-body structure, and cross-modal alignment at once. Under ambiguous observations, this coupling can reward dataset-specific shortcuts.
+              </p>
+              <p>
+                <strong>A structured prediction interface.</strong> Wave2Body independently pretrains a radar-token space and a compositional body-token space, then restricts paired supervision to learning the translation and global localization.
+              </p>
+            </div>
+
+            <div class="reframing-strip" aria-label="Wave2Body task reformulation">
+              <span class="old-formulation">Direct coordinate regression</span>
+              <span class="reframing-arrow" aria-hidden="true">&#8594;</span>
+              <span class="new-formulation">Radar-to-body token translation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light" id="method" aria-labelledby="method-title">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered" id="method-title">Method</h2>
+
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>
+                Wave2Body assigns each data source a focused role: unlabeled radar for sensor representations, pose-only motion data for human-body priors, and paired radar-pose samples for cross-modal alignment and global localization.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="paper-figure paper-figure--pipeline">
+          <img src="images/training-pipeline.webp" width="1600" height="1276" alt="Three-stage Wave2Body training pipeline" loading="lazy">
+          <figcaption>Three-stage training separates source-token pretraining, target-token pretraining, and paired radar-to-body translation.</figcaption>
+        </figure>
+
+        <div class="columns stage-columns">
+          <div class="column">
+            <article class="stage-card stage-card--radar">
+              <p class="stage-kicker">Stage 1</p>
+              <h3 class="title is-4">Self-supervised mmWave Tokenizer</h3>
+              <p>A Point-MAE-style encoder learns continuous radar tokens by reconstructing masked local point-cloud patches without pose labels.</p>
+              <span class="data-badge data-badge--radar">Unlabeled radar</span>
+            </article>
+          </div>
+          <div class="column">
+            <article class="stage-card stage-card--body">
+              <p class="stage-kicker">Stage 2</p>
+              <h3 class="title is-4">Compositional Body Tokenizer</h3>
+              <p>A part-structured VQ-VAE learns 24 discrete tokens across five kinematic regions from pelvis-centered pose-only data.</p>
+              <span class="data-badge data-badge--body">AMASS + radar poses</span>
+            </article>
+          </div>
+          <div class="column">
+            <article class="stage-card stage-card--bridge">
+              <p class="stage-kicker">Stage 3</p>
+              <h3 class="title is-4">Translation and Localization</h3>
+              <p>Frozen tokenizers expose reusable interfaces; a query-based translator predicts body embeddings while a separate head recovers the pelvis.</p>
+              <span class="data-badge data-badge--bridge">Paired radar-pose data</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="results" aria-labelledby="results-title">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered" id="results-title">Results</h2>
+
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h3 class="title is-4">Cross-Domain Generalization</h3>
+            <div class="content has-text-justified">
+              <p>
+                Under a matched radar-frame absolute-pose protocol, Wave2Body improves the micro-average against the strongest competitor on both M4Human distribution shifts and on mmBody. Its largest gains appear under subject shift and dynamic held-out motions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-summary" aria-label="Generalization results">
+          <div class="result-item">
+            <p class="result-context">M4Human Cross-Subject</p>
+            <p class="result-values"><span>113.53</span><i aria-hidden="true">&#8594;</i><strong>102.53 mm</strong></p>
+            <p class="result-delta">9.7% lower MPJPE</p>
+          </div>
+          <div class="result-item">
+            <p class="result-context">M4Human Cross-Action</p>
+            <p class="result-values"><span>119.81</span><i aria-hidden="true">&#8594;</i><strong>115.26 mm</strong></p>
+            <p class="result-delta">3.8% lower MPJPE</p>
+          </div>
+          <div class="result-item">
+            <p class="result-context">mmBody Official Test</p>
+            <p class="result-values"><span>139.69</span><i aria-hidden="true">&#8594;</i><strong>128.17 mm</strong></p>
+            <p class="result-delta">8.2% lower MPJPE</p>
+          </div>
+        </div>
+        <p class="result-note">Best matched competitor &#8594; Wave2Body. Lower is better.</p>
+
+        <div class="columns figure-columns">
+          <div class="column">
+            <figure class="paper-figure paper-figure--compact">
+              <img src="images/per-joint-subject.webp" width="1000" height="408" alt="Cross-Subject per-joint MPJPE comparison between Wave2Body and WiCompass" loading="lazy">
+              <figcaption>Cross-Subject: Wave2Body improves every joint, with the largest gains around the lower body and global placement.</figcaption>
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="paper-figure paper-figure--compact">
+              <img src="images/per-joint-action.webp" width="1000" height="418" alt="Cross-Action per-joint MPJPE comparison between Wave2Body and WiCompass" loading="lazy">
+              <figcaption>Cross-Action: Wave2Body improves 19 of 22 joints, most clearly around the pelvis, hips, spine, neck, and collar.</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="columns is-centered result-subsection">
+          <div class="column is-four-fifths">
+            <h3 class="title is-4">Qualitative Results</h3>
+            <div class="content has-text-justified">
+              <p>Predictions remain human-like across the error spectrum. In the hardest cases, errors mainly appear as global root shifts or ambiguous distal-limb articulation under sparse radar coverage.</p>
+            </div>
+          </div>
+        </div>
+        <figure class="paper-figure paper-figure--wide">
+          <img src="images/qualitative.webp" width="2243" height="574" alt="Wave2Body qualitative predictions on M4Human and mmBody from lower to higher MPJPE" loading="lazy">
+          <figcaption>Gray points denote radar returns, red skeletons denote ground truth, and blue skeletons denote Wave2Body predictions.</figcaption>
+        </figure>
+
+        <div class="scientific-note">
+          <strong>Where the gains concentrate.</strong> Wave2Body is strongest under subject shift and dynamic held-out motions. On Cross-Action In-Place actions, it is 3.6% worse than WiCompass, reflecting a trade-off between the robustness of a discrete body prior and fine-grained coordinate precision.
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light" id="efficiency" aria-labelledby="efficiency-title">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered" id="efficiency-title">Training and Inference Efficiency</h2>
+
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>Independent token interfaces substantially reduce both cold-start training compute and high-throughput inference cost against the matched WiCompass baseline.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="efficiency-summary" aria-label="Efficiency improvements over WiCompass">
+          <div><strong>31.00&times;</strong><span>fewer training FLOPs</span></div>
+          <div><strong>89.81&times;</strong><span>fewer inference FLOPs</span></div>
+          <div><strong>8.07&times;</strong><span>higher throughput</span></div>
+          <div><strong>92.6%</strong><span>lower peak memory</span></div>
+        </div>
+
+        <figure class="paper-figure paper-figure--wide">
+          <img src="images/training-efficiency.webp" width="1575" height="388" alt="Cold-start training computation comparison between Wave2Body and WiCompass" loading="lazy">
+          <figcaption>Cold-start training computation on M4Human. The two paired-data stages account for 55.2% of Wave2Body's total.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="analysis" aria-labelledby="analysis-title">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered" id="analysis-title">Token Alignment and Ablations</h2>
+
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <div class="content has-text-justified">
+              <p>Paired target-token recall exceeds identity- and action-matched controls, supporting sample-specific translation rather than a frequent-pose shortcut. Removing either pretrained token interface consistently hurts pose accuracy.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns analysis-columns">
+          <div class="column is-7">
+            <figure class="paper-figure paper-figure--compact">
+              <img src="images/token-alignment.webp" width="964" height="395" alt="Target body-token recall for paired samples and two controls" loading="lazy">
+              <figcaption>On M4Human Cross-Subject, paired Top-1/3/5 recall reaches 22.63/53.16/69.77%, above both deterministic controls.</figcaption>
+            </figure>
+          </div>
+          <div class="column is-5">
+            <div class="analysis-card">
+              <h3 class="title is-4">Sample-Specific Translation</h3>
+              <p>Token-alignment mismatch correlates with root-aligned pose error, connecting recovery in the discrete target space to downstream articulation accuracy.</p>
+              <div class="correlation-row"><span>Top-3 miss rate vs. error</span><strong>&rho; = 0.742</strong></div>
+              <div class="correlation-row"><span>Top-5 miss rate vs. error</span><strong>&rho; = 0.774</strong></div>
+            </div>
+          </div>
+        </div>
+
+        <figure class="paper-figure paper-figure--wide ablation-figure">
+          <img src="images/ablation-components.webp" width="1708" height="408" alt="Wave2Body component ablations across M4Human Cross-Subject and Cross-Action groups" loading="lazy">
+          <figcaption>Removing the body tokenizer increases MPJPE by 3.3-27.5%; replacing the pretrained mmWave tokenizer increases it by 3.7-30.7% across action groups.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="bibtex" aria-labelledby="bibtex-title">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title" id="bibtex-title">BibTeX</h2>
+          <button class="copy-bibtex-btn" id="copy-bibtex" type="button" data-copy-target="bibtex-code" title="Copy BibTeX to clipboard">
+            <span aria-hidden="true">&#9634;</span>
+            <span class="copy-label">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@misc{liang2026wave2body,
+  title  = {Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation},
+  author = {Liang, Bo and Gong, Chen and Gao, Wei and Xu, Chenren},
+  year   = {2026},
+  note   = {Preprint}
+}</code></pre>
+        <p class="copy-status" id="copy-status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a>, adopted from the <a href="https://nerfies.github.io" target="_blank" rel="noopener">Nerfies</a> project page. This website is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
