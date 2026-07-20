@@ -24,7 +24,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Wei Gao, Chenren Xu</div>
     <div class="pub-links">
       <a href="https://github.com/Galaxywalk/Wave2Body" class="github">Code</a>
-      <a href="/paper/wave2body/" class="project">Project</a>
+      <a href="/project/wave2body/" class="project">Project</a>
     </div>
   </div>
 </div>
@@ -35,12 +35,12 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   </div>
   <div class="pub-content">
     <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
-    <div class="pub-venue">MobiCom 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-venue">MobiCom 2026</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Qirui Liu, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, Kaichen Zhou, Guolong Cui, Chenren Xu</div>
     <div class="pub-links">
       <a href="https://arxiv.org/abs/2602.18726">Paper</a>
       <a href="https://github.com/Galaxywalk/WiCompass" class="github">Code</a>
-      <a href="/paper/wicompass/" class="project">Project</a>
+      <a href="/project/wicompass/" class="project">Project</a>
     </div>
   </div>
 </div>
@@ -81,8 +81,11 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   </div>
   <div class="pub-content">
     <div class="pub-title">LightRider: Reliable UAV Ground Communication with a Single Laser Tethering Link</div>
-    <div class="pub-venue">SECON 2026 <span class="to-appear">(To appear)</span></div>
+    <div class="pub-venue">SECON 2026</div>
     <div class="pub-authors">Junjie Wang, Kenuo Xu, Zhe Ou, Zhaofeng Luo, <span class="me">Bo Liang</span>, Muhan Li, Xin-Wei Yao, Xiaoming Liu, Lingyang Song, Guobin Shen, Chenren Xu</div>
+    <div class="pub-links">
+      <a href="/files/secon26-lightrider.pdf">Paper</a>
+    </div>
   </div>
 </div>
 
@@ -155,7 +158,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-authors"><span class="me">Bo Liang</span>, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu</div>
     <div class="pub-links">
       <a href="/files/nsdi23-RF-Chord.pdf">Paper</a>
-      <a href="/paper/rfchord/" class="project">Project</a>
+      <a href="/project/rfchord/" class="project">Project</a>
     </div>
   </div>
 </div>
