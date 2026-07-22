@@ -26,7 +26,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="pub-venue">arXiv 2026</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Wei Gao, Chenren Xu</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2607.18875">Paper</a>
+      <a href="https://arxiv.org/abs/2607.18875"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
       <a href="https://github.com/Galaxywalk/Wave2Body" class="github">Code</a>
       <a href="/project/wave2body/" class="project">Project</a>
     </div>
