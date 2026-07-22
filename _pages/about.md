@@ -4,7 +4,7 @@ title: "Bo Liang (梁博)"
 seo_title: "Bo Liang (梁博) · Peking University · Embodied AI"
 description: "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
 excerpt: "Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and hardware-software co-design."
-last_modified_at: 2026-07-20T00:00:00+08:00
+last_modified_at: 2026-07-22T00:00:00+08:00
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,8 +15,6 @@ I am a fifth year Ph.D. student at the School of Computer Science at Peking Univ
 
 I received my B.S degree from the School of Physics at Peking University in 2022. Here is my [CV](/files/CV_bo.pdf).
 
-<p lang="zh-CN">梁博，北京大学计算机学院博士生，研究方向包括具身智能、机器人基础模型、无线感知与软硬件协同设计。</p>
-
 <h2 class="section-title">📚 Publications</h2>
 
 <div class="pub-entry">
@@ -25,9 +23,10 @@ I received my B.S degree from the School of Physics at Peking University in 2022
   </div>
   <div class="pub-content">
     <div class="pub-title">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</div>
-    <div class="pub-venue">2026 Preprint <span class="to-appear">(arXiv coming soon)</span></div>
+    <div class="pub-venue">arXiv 2026</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Wei Gao, Chenren Xu</div>
     <div class="pub-links">
+      <a href="https://arxiv.org/abs/2607.18875">Paper</a>
       <a href="https://github.com/Galaxywalk/Wave2Body" class="github">Code</a>
       <a href="/project/wave2body/" class="project">Project</a>
     </div>
