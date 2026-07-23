@@ -1,255 +1,258 @@
 ---
 permalink: /
 title: "Bo Liang (梁博)"
-seo_title: "Bo Liang (梁博) · Peking University · Embodied AI"
+seo_title: "Bo Liang (梁博) Peking University"
 description: "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
 excerpt: "Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and hardware-software co-design."
-last_modified_at: 2026-07-22T00:00:00+08:00
+last_modified_at: 2026-07-23T00:00:00+08:00
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a fifth year Ph.D. student at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents.
+I am a fifth-year Ph.D. candidate at the School of Computer Science at Peking University, advised by Professor [Chenren Xu](https://soar.group/chenren/). My research focuses on **hardware-software co-design systems** to enhance sensing capabilities for humans and embodied agents. My current focus is robotics foundation models, especially vision-language navigation and VLM/LLM-driven agents.
 
-I received my B.S degree from the School of Physics at Peking University in 2022. Here is my [CV](/files/CV_bo.pdf).
+I received my B.S. degree from the School of Physics at Peking University in 2022.
 
-<h2 class="section-title">📚 Publications</h2>
+<h2 class="section-title" id="publications">📚 Publications</h2>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/wave2body.webp" alt="Wave2Body" loading="lazy">
+    <img src="/images/pub/wave2body.webp" alt="Wave2Body radar-to-body token translation overview" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</div>
+    <h3 class="pub-title"><a href="/project/wave2body/">Wave2Body: Rethinking mmWave Human Pose Estimation as Radar-to-Body Token Translation</a></h3>
     <div class="pub-venue">arXiv 2026</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Wei Gao, Chenren Xu</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2607.18875"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
-      <a href="https://github.com/Galaxywalk/Wave2Body" class="github">Code</a>
-      <a href="/project/wave2body/" class="project">Project</a>
+      <a href="https://arxiv.org/abs/2607.18875" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/Galaxywalk/Wave2Body" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      <a href="/project/wave2body/" class="project"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/mobicom26-wicompass.webp" alt="WiCompass" loading="lazy">
+    <img src="/images/pub/mobicom26-wicompass.webp" alt="WiCompass oracle-guided pose data scaling pipeline" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</div>
+    <h3 class="pub-title"><a href="/project/wicompass/">WiCompass: Oracle-driven Data Scaling for mmWave Human Pose Estimation</a></h3>
     <div class="pub-venue">MobiCom 2026</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Chen Gong, Haobo Wang, Qirui Liu, Rungui Zhou, Fengzhi Shao, Yubo Wang, Wei Gao, Kaichen Zhou, Guolong Cui, Chenren Xu</div>
     <div class="pub-links">
-      <a href="https://arxiv.org/abs/2602.18726">Paper</a>
-      <a href="https://github.com/Galaxywalk/WiCompass" class="github">Code</a>
-      <a href="/project/wicompass/" class="project">Project</a>
+      <a href="https://arxiv.org/abs/2602.18726" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/Galaxywalk/WiCompass" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      <a href="/project/wicompass/" class="project"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-wiswiss.webp" alt="WiSwiss" loading="lazy">
+    <img src="/images/pub/sensys26-wiswiss.webp" alt="WiSwiss multi-source wireless sensing pre-training framework" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</div>
+    <h3 class="pub-title"><a href="/files/sensys26-wiswiss.pdf">Towards Generalizable Wireless Sensing Models via Pre-training on Multi-Source Datasets</a></h3>
     <div class="pub-venue">SenSys 2026</div>
     <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Qihao Zhu, Wei Gao, Yin Chen, Jin Nakazawa, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/sensys26-wiswiss.pdf">Paper</a>
-      <a href="https://github.com/SenSys26WiSwiss/WiSwiss" class="github">Code</a>
+      <a href="/files/sensys26-wiswiss.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/SenSys26WiSwiss/WiSwiss" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/sensys26-mtrack.webp" alt="mTrack" loading="lazy">
+    <img src="/images/pub/sensys26-mtrack.webp" alt="mTrack RFID-vision hybrid mouse tracking system" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</div>
+    <h3 class="pub-title"><a href="/files/sensys26-mtrack.pdf">mTrack: Enabling Long-term Mouse Social Behavior Analysis through RFID-Vision Hybrid Tracking</a></h3>
     <div class="pub-venue">SenSys 2026 <span class="award">🏆 Best Paper Honorable Mention</span></div>
     <div class="pub-authors">Xingyuming Liu, <span class="me">Bo Liang</span>, Haobo Wang, Zhonghao Li, Qirui Liu, Yanxue Xue, Yunhuai Liu, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/sensys26-mtrack.pdf">Paper</a>
-      <a href="https://github.com/SOAR-PKU/mTrack" class="github">Code</a>
+      <a href="/files/sensys26-mtrack.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/SOAR-PKU/mTrack" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/lightrider.webp" alt="LightRider" loading="lazy">
+    <img src="/images/pub/lightrider.webp" alt="LightRider laser tethering alignment mechanism for UAV communication" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">LightRider: Reliable UAV Ground Communication with a Single Laser Tethering Link</div>
+    <h3 class="pub-title"><a href="/files/secon26-lightrider.pdf">LightRider: Reliable UAV Ground Communication with a Single Laser Tethering Link</a></h3>
     <div class="pub-venue">SECON 2026</div>
     <div class="pub-authors">Junjie Wang, Kenuo Xu, Zhe Ou, Zhaofeng Luo, <span class="me">Bo Liang</span>, Muhan Li, Xin-Wei Yao, Xiaoming Liu, Lingyang Song, Guobin Shen, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/secon26-lightrider.pdf">Paper</a>
+      <a href="/files/secon26-lightrider.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfrock.webp" alt="RF-Rock" loading="lazy">
+    <img src="/images/pub/rfrock.webp" alt="RF-Rock intermodulation-based RFID attack and defense workflow" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation</div>
+    <h3 class="pub-title"><a href="/files/mobicom25-rfrock.pdf">RF-Rock: An Intermodulation-based RFID Unauthorized Identification Attack without Tag Activation</a></h3>
     <div class="pub-venue">MobiCom 2025</div>
     <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Purui Wang, Xiaoyu Ji, Yin Chen, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/mobicom25-rfrock.pdf">Paper</a>
-      <a href="https://github.com/gcc17/RF-Rock" class="github">Code</a>
+      <a href="/files/mobicom25-rfrock.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/gcc17/RF-Rock" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/syncheck.webp" alt="SynCheck" loading="lazy">
+    <img src="/images/pub/syncheck.webp" alt="SynCheck quality-guided wireless synthetic data training pipeline" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data</div>
+    <h3 class="pub-title"><a href="/files/mobisys25-syncheck.pdf">Data Can Speak for Itself: Quality-guided Utilization of Wireless Synthetic Data</a></h3>
     <div class="pub-venue">MobiSys 2025 <span class="award">🏆 Best Paper Award</span></div>
     <div class="pub-authors">Chen Gong, <span class="me">Bo Liang</span>, Wei Gao, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/mobisys25-syncheck.pdf">Paper</a>
-      <a href="https://github.com/MobiSys25AE/SynCheck" class="github">Code</a>
+      <a href="/files/mobisys25-syncheck.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="https://github.com/MobiSys25AE/SynCheck" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/erlangsight.webp" alt="Erlang Sight" loading="lazy">
+    <img src="/images/pub/erlangsight.webp" alt="Erlang Sight mmWave sensing platform for robotic liquid identification" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Erlang Sight: mmWave-based Liquid Identification for Robot Manipulation</div>
+    <h3 class="pub-title"><a href="/files/mobisys25-erlangsight.pdf">Erlang Sight: mmWave-based Liquid Identification for Robot Manipulation</a></h3>
     <div class="pub-venue">MobiSys 2025 Demo</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Jingzhe Peng, Xingyuming Liu, Chen Gong, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/mobisys25-erlangsight.pdf">Paper</a>
-      <a href="/files/mobisys25-erlangsight-poster.pdf">Poster</a>
+      <a href="/files/mobisys25-erlangsight.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="/files/mobisys25-erlangsight-poster.pdf" class="poster"><i class="fas fa-image" aria-hidden="true"></i> Poster</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retrolidar.webp" alt="RetroLiDAR" loading="lazy">
+    <img src="/images/pub/retrolidar.webp" alt="RetroLiDAR liquid-crystal retroreflective marker hardware" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing</div>
+    <h3 class="pub-title"><a href="/files/sensys25-RetroLiDAR.pdf">RetroLiDAR: A Liquid-crystal Fiducial Marker System for High-fidelity Spatial Computing</a></h3>
     <div class="pub-venue">SenSys 2025</div>
     <div class="pub-authors">Kenuo Xu, <span class="me">Bo Liang</span>, Jingyu Li, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/sensys25-RetroLiDAR.pdf">Paper</a>
+      <a href="/files/sensys25-RetroLiDAR.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/rfchord.webp" alt="RF-CHORD" loading="lazy">
+    <img src="/images/pub/rfchord.webp" alt="RF-CHORD RFID localization deployment in a logistics environment" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">RF-CHORD: Towards Deployable RFID Localization System for Logistics Network</div>
+    <h3 class="pub-title"><a href="/project/rfchord/">RF-CHORD: Towards Deployable RFID Localization System for Logistics Network</a></h3>
     <div class="pub-venue">NSDI 2023</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Purui Wang, Renjie Zhao, Heyu Guo, Pengyu Zhang, Junchen Guo, Shunmin Zhu, Hongqiang Liu, Xinyu Zhang, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/nsdi23-RF-Chord.pdf">Paper</a>
-      <a href="/project/rfchord/" class="project">Project</a>
+      <a href="/files/nsdi23-RF-Chord.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
+      <a href="/project/rfchord/" class="project"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/secon23.webp" alt="SECON Poster" loading="lazy">
+    <img src="/images/pub/secon23.webp" alt="RFID reference infrastructure for smart agriculture" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Poster: Empower Smart Agriculture with RFID Reference Infrastructure</div>
+    <h3 class="pub-title"><a href="/files/secon23poster.pdf">Poster: Empower Smart Agriculture with RFID Reference Infrastructure</a></h3>
     <div class="pub-venue">SECON 2023 (AgriSECON Workshop)</div>
     <div class="pub-authors"><span class="me">Bo Liang</span>, Xingyuming Liu, YuCheng Wan, Siyao Cheng, Jie Liu, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/secon23poster.pdf">Paper</a>
+      <a href="/files/secon23poster.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/retromumimo.webp" alt="RetroMUMIMO" loading="lazy">
+    <img src="/images/pub/retromumimo.webp" alt="RetroMUMIMO visible light backscatter networking hardware" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">Low-Latency Visible Light Backscatter Networking with RetroMUMIMO</div>
+    <h3 class="pub-title"><a href="/files/sensys22-RetroMUMIMO.pdf">Low-Latency Visible Light Backscatter Networking with RetroMUMIMO</a></h3>
     <div class="pub-venue">SenSys 2022</div>
     <div class="pub-authors">Kenuo Xu, Chen Gong, <span class="me">Bo Liang</span>, Yue Wu, Boya Di, Lingyang Song, Chenren Xu</div>
     <div class="pub-links">
-      <a href="/files/sensys22-RetroMUMIMO.pdf">Paper</a>
+      <a href="/files/sensys22-RetroMUMIMO.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
-    <img src="/images/pub/eario.webp" alt="EarIO" loading="lazy">
+    <img src="/images/pub/eario.webp" alt="EarIO acoustic earable for facial movement tracking" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements</div>
+    <h3 class="pub-title"><a href="/files/imwut22eario.pdf">EarIO: A Low-power Acoustic Sensing Earable for Continuously Tracking Detailed Facial Movements</a></h3>
     <div class="pub-venue">IMWUT 2022</div>
     <div class="pub-authors">Ke Li, Ruidong Zhang, <span class="me">Bo Liang</span>, François Guimbretière, Cheng Zhang</div>
     <div class="pub-links">
-      <a href="/files/imwut22eario.pdf">Paper</a>
+      <a href="/files/imwut22eario.pdf" class="paper"><i class="fas fa-file-pdf" aria-hidden="true"></i> Paper</a>
     </div>
   </div>
-</div>
+</article>
 
-<h2 class="section-title">🛠️ Open Source Projects</h2>
+<h2 class="section-title" id="projects">🛠️ Open Source Projects</h2>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
     <img src="/images/proj/ilidar.webp" alt="iLiDAR app showing an iPhone LiDAR depth map and network streaming settings" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title"><a href="/project/ilidar/">iLiDAR: Real-Time iPhone LiDAR + RGB-D Streaming</a></div>
+    <h3 class="pub-title"><a href="/project/ilidar/">iLiDAR: Real-Time iPhone LiDAR + RGB-D Streaming</a></h3>
     <div class="pub-authors">Turn a LiDAR-equipped iPhone into an open-source RGB-D sensor. Capture synchronized depth and color frames and stream them to a Python server for robotics and computer-vision data collection.</div>
     <div class="pub-links">
-      <a href="https://github.com/Galaxywalk/iLiDAR" class="github">Code</a>
-      <a href="/project/ilidar/" class="project">Project</a>
+      <a href="https://github.com/Galaxywalk/iLiDAR" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+      <a href="/project/ilidar/" class="project"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
     </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
     <img src="/images/proj/scholarbib.webp" alt="GoogleScholarBib" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title"><a href="https://github.com/Galaxywalk/GoogleScholarBib">GoogleScholarBib: One-Click BibTeX Copy for Google Scholar</a></div>
+    <h3 class="pub-title"><a href="https://github.com/Galaxywalk/GoogleScholarBib">GoogleScholarBib: One-Click BibTeX Copy for Google Scholar</a></h3>
     <div class="pub-authors">Chrome extension that adds a "Copy BibTeX" button to Google Scholar search results. One-click copy of official BibTeX citations without pop-ups or tab switches.</div>
+    <div class="pub-links">
+      <a href="https://github.com/Galaxywalk/GoogleScholarBib" class="github"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
+    </div>
   </div>
-</div>
+</article>
 
-<div class="pub-entry">
+<article class="pub-entry">
   <div class="pub-img">
     <img src="/images/proj/supersoda.webp" alt="SuperSODA" loading="lazy">
   </div>
   <div class="pub-content">
-    <div class="pub-title">SuperSODA: High-Performance Software Defined Radio Platform</div>
+    <h3 class="pub-title">SuperSODA: High-Performance Software Defined Radio Platform</h3>
     <div class="pub-authors">Won First Prize 🏆 in the 1st Ubiquitous Intelligent Sensing Technology Innovation and Application Competition (CCF).</div>
     <div class="pub-links">
-      <a href="/files/supersoda.pdf">Report</a>
-      <a href="https://soar.group/projects/rfid/rfchord/" class="project">Project</a>
+      <a href="/files/supersoda.pdf" class="report"><i class="fas fa-file-alt" aria-hidden="true"></i> Report</a>
+      <a href="https://soar.group/projects/rfid/rfchord/" class="project"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
     </div>
   </div>
-</div>
+</article>
 
-<h2 class="section-title">💼 Internships</h2>
+<h2 class="section-title" id="internships">💼 Internships</h2>
 
 <div class="intern-entry">
   <div class="intern-logo" aria-hidden="true">
@@ -271,7 +274,7 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="intern-title">Embodied AI Research Intern</div>
     <div class="intern-company">LightRobotics</div>
     <div class="intern-time">Sep 2025 - Apr 2026</div>
-    <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. Build Vision Language Navigation (VLN) Model. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
+    <div class="intern-desc">Enhanced the sim-to-real pipeline for humanoid control. Built a vision-language navigation (VLN) model. (Mentors: Yuntao Ma, Tingxiang Fan, Xu Jiang)</div>
   </div>
 </div>
 
@@ -295,6 +298,6 @@ I received my B.S degree from the School of Physics at Peking University in 2022
     <div class="intern-title">Software-Hardware Engineer</div>
     <div class="intern-company">XG Lab, Alibaba DAMO Academy</div>
     <div class="intern-time">Jul 2021 - May 2023</div>
-    <div class="intern-desc">Developed and deployed RFID-based inventory and localization systems supporting Alibaba's logistic chains (Cainiao and Freshippo). The system was presented at NSDI'23, making me the first undergraduate to publish at NSDI. (Mentor: Pengyu Zhang)</div>
+    <div class="intern-desc">Developed and deployed RFID-based inventory and localization systems supporting Alibaba's logistics networks (Cainiao and Freshippo). The system was presented at NSDI'23, making me the first undergraduate to publish at NSDI. (Mentor: Pengyu Zhang)</div>
   </div>
 </div>

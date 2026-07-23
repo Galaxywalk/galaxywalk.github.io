@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Bo Liang · Peking University"
+title                    : "Bo Liang Peking University"
 title_separator          : "-"
 name                     : &name "Bo Liang's Homepage"
 description              : &description "Bo Liang (梁博) is a Computer Science Ph.D. student at Peking University researching embodied AI, robotics foundation models, wireless sensing, and co-design."
